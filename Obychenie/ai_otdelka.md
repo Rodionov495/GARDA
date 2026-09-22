@@ -7,13 +7,13 @@ properties:
       - Вакс Р.
 ---
 
+Обучение посвящено пошаговой работе с отделкой в Revit: от подготовки модели и плагинов до автоматизации, типовых ошибок, массовых операций и обновления отделки при изменениях в проекте.
+
+## **Часть 1**
+
 [Видео часть 1](https://ncloud.avilex.ru/index.php/s/2EGXC5BtxMzCdXD)
 
-[Видео часть 2](https://ncloud.avilex.ru/index.php/s/apbiZi5AjHDcFdY)
-
-### **Тайм-коды**
-
-### **Часть 1**
+#### Тайм коды
 
 <table header="row">
 <colgroup><col width="655"/><col width="152"/></colgroup>
@@ -163,7 +163,11 @@ properties:
 </tr>
 </table>
 
-### Часть 2
+## Часть 2
+
+[Видео часть 2](https://ncloud.avilex.ru/index.php/s/apbiZi5AjHDcFdY)
+
+#### Тайм коды
 
 <table header="row">
 <colgroup><col width="661"/><col width="149"/></colgroup>
