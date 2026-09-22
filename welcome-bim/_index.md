@@ -45,11 +45,11 @@ order: 1
 
 **PDF-редактор** - рекомендуем Adobe Acrobat
 
-**Яндекс мессенджер** - для общения с коллегами и просмотра новостей компании
+**Яндекс телемост** \- для общения с коллегами и просмотра новостей компании
 
 <note>
 
-Важно. Обязательно установите desktop версию по [ссылке](https://download.messenger.yandex.ru/desktop/latest?platform=win).
+Важно. Обязательно установите desktop версию из приложения **«Установка ПО»**
 
 </note>
 
@@ -79,7 +79,7 @@ order: 1
 
 <note type="info">
 
-[Подробная инструкция](./../BIM-instrykcii/plaginy/korporativnye-plaginy-pyrevit)
+[Подробная инструкция](./../BIM-instrykcii/plaginy/korporativnye-plaginy-pyrevit/_index)
 
 </note>
 
