@@ -43,8 +43,6 @@ properties:
 
 4\. Отмасштабируйте изображение и разместите в области для расположения подписи:
 
-
-
 <image src="./_index-2.jpeg" crop="0,0,100,100" scale="611px" width="895px" height="233px" float="center"/>
 
 
