@@ -11,7 +11,7 @@ properties:
 
 ### Где находится
 
-Плагин расположен на вкладке **GARDA_ВИС**, в панели **ЭОМ/СС/АК**.
+Плагин расположен на вкладке **GARDA_ВИС**, в панели **ЭОМ,СС,АК**.
 
 ![](./pokrasit-posledovatelnosti-elementov-uzlov.webp){width=193px height=75px}
 
@@ -37,7 +37,7 @@ properties:
 
 ### **Результат**
 
-Элементы узлов, относящиеся к одной цветной линии, отображаются соответствующим цветом. 
+Элементы узлов, относящиеся к одной цветной линии, отображаются соответствующим цветом.
 
 <image src="./pokrasit-posledovatelnosti-elementov-uzlov-2.webp" crop="0,0,100,100" scale="644px" width="1077px" height="582px" float="center"/>
 
