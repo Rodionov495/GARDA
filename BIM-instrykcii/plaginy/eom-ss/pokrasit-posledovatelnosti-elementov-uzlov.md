@@ -11,7 +11,7 @@ properties:
 
 ### Где находится
 
-Плагин расположен на вкладке **GARDA_ВИС**, в панели **ЭОМ,СС,АК**.
+Плагин расположен на вкладке **GARDA_ВИС**, в панели **ЭОМ/СС/АК**.
 
 ![](./pokrasit-posledovatelnosti-elementov-uzlov.webp){width=193px height=75px}
 
