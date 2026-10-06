@@ -1,6 +1,9 @@
 ---
 title: Стадии
-order: 4
+order: 2.4
+aliases:
+  - path: BIM-instrykcii/stadii
+    moved: "2026-10-06T11:11:58Z"
 ---
 
 ## 1\. Общая информация
