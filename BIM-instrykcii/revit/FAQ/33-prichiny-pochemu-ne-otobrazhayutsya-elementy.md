@@ -1,10 +1,13 @@
 ---
 title: 33 причины почему не отображаются элементы
-order: 4.3
+order: 0.3
 properties:
   - id: CDhLD
     value:
       - Балицкий И.
+aliases:
+  - path: BIM-instrykcii/revit/33-prichiny-pochemu-ne-otobrazhayutsya-elementy
+    moved: "2026-10-06T14:24:40Z"
 ---
 
 ## Назначение

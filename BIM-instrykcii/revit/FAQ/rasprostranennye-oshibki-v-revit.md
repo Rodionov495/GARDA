@@ -1,10 +1,13 @@
 ---
 title: Распространенные ошибки в Revit
-order: 3.3
+order: 1
 properties:
   - id: CDhLD
     value:
       - Балицкий И.
+aliases:
+  - path: BIM-instrykcii/revit/rasprostranennye-oshibki-v-revit
+    moved: "2026-10-06T14:24:35Z"
 ---
 
 ## Не удалось получить доступ к модели

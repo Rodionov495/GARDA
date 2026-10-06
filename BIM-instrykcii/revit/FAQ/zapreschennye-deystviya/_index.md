@@ -1,10 +1,13 @@
 ---
 title: Запрещенные действия
-order: 5.3
+order: 0.5
 properties:
   - id: CDhLD
     value:
       - Балицкий И.
+aliases:
+  - path: BIM-instrykcii/revit/zapreschennye-deystviya
+    moved: "2026-10-06T14:24:37Z"
 ---
 
 # Запрещенные действия в Revit

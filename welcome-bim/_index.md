@@ -450,7 +450,7 @@ order: 1
 
 <note type="info">
 
-[Полная статья с ошибками в Revit](./../FAQ/rasprostranennye-oshibki-v-revit)
+[Полная статья с ошибками в Revit](./../BIM-instrykcii/revit/FAQ/rasprostranennye-oshibki-v-revit)
 
 </note>
 

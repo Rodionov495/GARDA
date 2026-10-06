@@ -1,6 +1,6 @@
 ---
 title: Шаблон вида
-order: 12.3
+order: 11.6
 aliases:
   - path: Proektirovanie/ar/shablon-vida
     moved: "2026-08-19T11:06:11Z"
