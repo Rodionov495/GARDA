@@ -1,5 +1,5 @@
 ---
 title: BIM-Стандарт
-order: 3.5
+order: 8.5
 ---
 

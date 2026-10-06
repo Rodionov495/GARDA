@@ -1,6 +1,13 @@
 ---
-order: 10
+order: 0.3
 title: Кто это сделал?
+aliases:
+  - path: BIM-instrykcii/plaginy/kto-eto-sdelal
+    moved: "2026-10-06T14:17:51Z"
+properties:
+  - id: CDhLD
+    value:
+      - Балицкий И.
 ---
 
 Плагин показывает информацию об авторах и истории изменения выбранных элементов в рабочей модели Revit.

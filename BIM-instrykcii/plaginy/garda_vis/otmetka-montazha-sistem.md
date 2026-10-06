@@ -1,6 +1,13 @@
 ---
 title: Отметка монтажа систем
-order: 2
+order: 6
+aliases:
+  - path: BIM-instrykcii/plaginy/otmetka-montazha-sistem
+    moved: "2026-10-06T14:18:00Z"
+properties:
+  - id: CDhLD
+    value:
+      - Балицкий И.
 ---
 
 Плагин автоматически рассчитывает и заполняет параметр `G_Высота монтажа` для:

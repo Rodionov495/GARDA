@@ -1,6 +1,13 @@
 ---
 title: Нумерация
-order: 6
+order: 7
+aliases:
+  - path: BIM-instrykcii/plaginy/numeraciya
+    moved: "2026-10-06T14:17:56Z"
+properties:
+  - id: CDhLD
+    value:
+      - Балицкий И.
 ---
 
 Плагин автоматически рассчитывает и заполняет параметр **«ADSK_Позиция»** по элементам открытой спецификации.

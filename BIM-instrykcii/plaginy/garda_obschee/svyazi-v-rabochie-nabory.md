@@ -1,6 +1,13 @@
 ---
-order: 11
+order: 0.5
 title: Связи в рабочие наборы
+aliases:
+  - path: BIM-instrykcii/plaginy/svyazi-v-rabochie-nabory
+    moved: "2026-10-06T14:17:49Z"
+properties:
+  - id: CDhLD
+    value:
+      - Балицкий И.
 ---
 
 Плагин автоматически распределяет **Revit-связи по отдельным рабочим наборам** и закрепляет их от случайного перемещения.
