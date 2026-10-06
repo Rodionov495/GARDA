@@ -1,11 +1,13 @@
 ---
 title: Работа со штампом
-order: 9.3
+order: 2.4
 aliases:
   - path: BIM-instrykcii/sozdanie-semeystva-podpisi-dlya-shtampa/rabota-so-shtampom
     moved: "2026-09-08T16:07:54Z"
   - path: BIM-instrykcii/rabota-so-shtampom
     moved: "2026-09-08T16:08:09Z"
+  - path: BIM-instrykcii/revit/rabota-so-shtampom
+    moved: "2026-10-06T11:16:38Z"
 properties:
   - id: CDhLD
     value:

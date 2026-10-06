@@ -1,12 +1,14 @@
 ---
 title: Семейство подписи
-order: 4.7
+order: 1.2
 aliases:
   - path: >-
       Proektirovanie/sozdanie-semeystva-podpisi-dlya-shtampa/sozdanie-semeystva-podpisi-dlya-shtampa
     moved: "2026-08-18T15:14:05Z"
   - path: BIM-instrykcii/sozdanie-semeystva-podpisi-dlya-shtampa
     moved: "2026-09-08T16:08:11Z"
+  - path: BIM-instrykcii/revit/sozdanie-semeystva-podpisi-dlya-shtampa
+    moved: "2026-10-06T11:16:34Z"
 properties:
   - id: CDhLD
     value:
