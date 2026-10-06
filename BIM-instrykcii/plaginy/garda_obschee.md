@@ -1,5 +1,5 @@
 ---
-order: 16
+order: 12
 title: GARDA_ОБЩИЕ
 ---
 
