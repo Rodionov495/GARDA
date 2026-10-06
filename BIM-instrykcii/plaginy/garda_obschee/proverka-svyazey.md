@@ -1,10 +1,13 @@
 ---
 title: Проверка связей
-order: 7
+order: 1
 properties:
   - id: CDhLD
     value:
       - Луцко Д.
+aliases:
+  - path: BIM-instrykcii/plaginy/proverka-svyazey
+    moved: "2026-10-06T12:48:42Z"
 ---
 
 Плагин собирает и выводит отчёт по всем Revit‑связям в проекте для быстрой проверки состояния связей, аудита и быстрого выбора/копирования ID связанных моделей.

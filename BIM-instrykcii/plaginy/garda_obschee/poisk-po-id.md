@@ -1,10 +1,13 @@
 ---
 title: Поиск по ID
-order: 9
+order: 4
 properties:
   - id: CDhLD
     value:
       - Луцко Д.
+aliases:
+  - path: BIM-instrykcii/plaginy/poisk-po-id
+    moved: "2026-10-06T12:47:03Z"
 ---
 
 Плагин предназначен для поиска по ID и визуального выделения элемента.

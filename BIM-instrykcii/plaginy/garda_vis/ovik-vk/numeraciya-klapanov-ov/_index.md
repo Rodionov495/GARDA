@@ -1,10 +1,15 @@
 ---
 title: Маркировка клапанов ОВ
-order: 4
+order: 14
 properties:
   - id: CDhLD
     value:
       - Луцко Д.
+aliases:
+  - path: BIM-instrykcii/plaginy/numeraciya-klapanov-ov
+    moved: "2026-10-06T12:48:21Z"
+  - path: BIM-instrykcii/plaginy/garda_vis/numeraciya-klapanov-ov
+    moved: "2026-10-06T12:48:25Z"
 ---
 
 Плагин предназначен для автоматической маркировки клапанов ОВ по принципу \<Имя системы(Номер этажа)-Номер в системе по порядку>.

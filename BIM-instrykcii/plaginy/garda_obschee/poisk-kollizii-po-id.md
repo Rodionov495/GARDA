@@ -1,10 +1,13 @@
 ---
 title: Поиск коллизии по ID
-order: 5
+order: 2
 properties:
   - id: CDhLD
     value:
       - Луцко Д.
+aliases:
+  - path: BIM-instrykcii/plaginy/poisk-kollizii-po-id
+    moved: "2026-10-06T12:47:16Z"
 ---
 
 Плагин предназначен для визуального выделения элементов, участвующих в коллизиях.
