@@ -74,7 +74,7 @@ title: Зоны покрытия Wi-Fi
 
 Результат появляется на плане:
 
-<image src="./zony-pokrytiya-wi-fi.webp" crop="0,0,100,100" scale="748px" width="783px" height="624px" float="center"/>
+![](./zony-pokrytiya-wi-fi.webp){width=899px height=713px}
 
 ### **Чтение результатов**
 
