@@ -33,6 +33,8 @@ title: Зоны покрытия Wi-Fi
 
 Плагин расположен на вкладке **GARDA_ВИС**, в панели **ЭОМ/СС/АК**.
 
+![](./zony-pokrytiya-wi-fi-2.webp){width=96px height=74px}
+
 ![](./zony-pokrytiya-wi-fi.webp){width=96px height=74px}
 
 ### **Как пользоваться**
