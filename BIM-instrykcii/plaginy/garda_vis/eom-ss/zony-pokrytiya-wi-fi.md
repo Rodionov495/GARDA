@@ -35,8 +35,6 @@ title: Зоны покрытия Wi-Fi
 
 ![](./zony-pokrytiya-wi-fi-2.webp){width=96px height=74px}
 
-![](./zony-pokrytiya-wi-fi.webp){width=96px height=74px}
-
 ### **Как пользоваться**
 
 1. Откройте план нужного этажа;
