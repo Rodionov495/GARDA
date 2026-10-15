@@ -1,9 +1,17 @@
 ---
 title: Стадии
+<<<<<<< Updated upstream:BIM-instrykcii/revit/stadii.md
 order: 2.4
 aliases:
   - path: BIM-instrykcii/stadii
     moved: "2026-10-06T11:11:58Z"
+=======
+order: 4
+properties:
+  - id: CDhLD
+    value:
+      - Аксенова М.
+>>>>>>> Stashed changes:BIM-instrykcii/stadii.md
 ---
 
 ## 1\. Общая информация
