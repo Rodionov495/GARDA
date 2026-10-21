@@ -1,0 +1,17 @@
+---
+title: Глава 2 - списание трудозатрат
+order: 1.5
+aliases:
+  - path: Proektirovanie/ss-ak/glava-3-obmen-zadaniyami/glava-3-spisanie-trudozatrat
+    moved: "2026-10-21T16:42:29Z"
+---
+
+Для оценки затраченного времени на разработку той или иной стадии проекта томов СС и АК в каждом проекте созданы задачи <highlight color="purple">**ХХХ_ПД_СС.АК_Списание ТРЗ **</highlight>и <highlight color="blue">**ХХХ_РД_СС.АК_Списание ТРЗ**</highlight>, где ХХХ - номер проекта.
+
+Вносить время разом за неделю в пятницу, или раз в два дня, не получится - выгрузка отчета не корректно отображает даты.
+
+**Отчет заполнять ежедневно.**
+
+**Комментарий заполнять по примеру:**
+
+<image src="./glava-3-spisanie-trudozatrat.webp" crop="0,0,100,100" scale="484px" width="821px" height="591px" float="center"/>
