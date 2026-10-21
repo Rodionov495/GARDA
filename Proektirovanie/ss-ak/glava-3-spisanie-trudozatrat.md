@@ -14,4 +14,4 @@ aliases:
 
 **Комментарий заполнять по примеру:**
 
-<image src="./glava-3-spisanie-trudozatrat.webp" crop="0,0,100,100" scale="484px" width="821px" height="591px" float="center"/>
+![](./glava-3-spisanie-trudozatrat.webp){width=1683px height=758px}
