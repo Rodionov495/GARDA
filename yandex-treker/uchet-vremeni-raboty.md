@@ -65,8 +65,6 @@ order: 1
 
 ### **Справочник хэштегов:**
 
-
-
 <table header="none"><colgroup><col width="155" /><col width="628" /></colgroup>
   <tr>
     <td>`#source`</td>
