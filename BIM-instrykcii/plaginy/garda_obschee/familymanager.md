@@ -3,15 +3,15 @@ title: Библиотека семейств
 order: 0.1
 ---
 
+## Где находится
+
+<comment id="VuM5F"><image src="./familymanager-9.webp" scale="151px" width="152px" height="191px" float="left" /></comment>
+
+ Плагин расположен на вкладке **GARDA_Общие**, панели **Библиотека,** кнопка **Family Manager**.
+
 <note type="quote">
   **Family Manager (Библиотека семейств)** -- это единый корпоративный диспетчер BIM-библиотеки, встроенный в интерфейс Autodesk Revit через платформу pyRevit. Инструмент предназначен для быстрого поиска, проверки и загрузки семейств и спецификаций в проект, а также для централизованного администрирования библиотеки.
 </note>
-
-## Где находится
-
-<comment id="VuM5F">![](./familymanager-9.webp){width=152px height=191px scale=70px}</comment>
-
- Плагин расположен на вкладке **GARDA_Общие**, панели **Библиотека,** кнопка **Family Manager**.
 
 
 
