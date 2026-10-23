@@ -93,9 +93,7 @@ properties:
 
 
 
-<gallery>
   ![](./familymanager-4.gif){width=909px height=1534px}
-</gallery>
 
 
 
