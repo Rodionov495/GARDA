@@ -11,9 +11,7 @@ properties:
 ---
 
 <note type="danger">
-
-п.8 Критически важен для корректной работы.
-
+  п.8 Критически важен для корректной работы.
 </note>
 
 ## Установка
@@ -59,13 +57,10 @@ properties:
 8\. Выберите интересующий вас тип синхронизации и путь в локальную папку(`C:\Nextcloud`). После нажмите "Подключиться"
 
 <note>
+  ВАЖНО!!!
 
-ВАЖНО!!!
-
-1. Создайте папку `Nextcloud` на диске С
-
-2. Укажите путь синхронизации файлов в локальную папку `C:\Nextcloud`
-
+  1. Создайте папку `Nextcloud` на диске С
+  2. Укажите путь синхронизации файлов в локальную папку `C:\Nextcloud`
 </note>
 
 ![](./nextcloud-7.jpeg){width=834px height=590px}
@@ -75,36 +70,38 @@ properties:
 По завершении синхронизации можно приступить к работе с файлами через Настольный клиент NCloud
 
 <note type="info">
-
-[Подробная инструкция по работе с Nextcloud](https://wiki.avilex.ru/ru/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8/NCLOUD)
-
+  [Подробная инструкция по работе с Nextcloud](https://wiki.avilex.ru/ru/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8/NCLOUD)
 </note>
 
 
 
 ## Обновление пути в локальную папку
 
+<note>
+  Данный раздел необходимо выполнить, если Ваш путь на Nextcloud не соответствует: `C:\Nextcloud`
+</note>
+
 1\. Запусти Nextcloud
 
-<image src="./nextcloud-8.jpeg" crop="0,0,100,100" scale="385px" width="874px" height="1010px" float="center"/>
+![](./nextcloud-8.jpeg){width=874px height=1010px scale=385px}
 
 
 
 2\. Нажмите на иконку своего профиля (стрелка вниз) и выберите пункт **„Настройки“**.
 
-<image src="./nextcloud-9.jpeg" crop="0,0,100,100" scale="401px" width="857px" height="1016px" float="center"/>
+![](./nextcloud-9.jpeg){width=857px height=1016px scale=401px}
 
 
 
 3\. Нажмите на свой профиль и далее на **«…»**.
 
-<image src="./nextcloud-10.jpeg" crop="0,0,100,100" scale="608px" width="1471px" height="833px" float="center"/>
+![](./nextcloud-10.jpeg){width=1471px height=833px scale=608px}
 
 
 
 4\. Выберите «**Приостановить синхронизацию**»
 
-<image src="./nextcloud-11.jpeg" crop="0,0,100,100" scale="400px" width="593px" height="416px" float="center"/>
+![](./nextcloud-11.jpeg){width=593px height=416px scale=400px}
 
 
 
@@ -123,13 +120,10 @@ properties:
 7\. Выберите интересующий вас тип синхронизации и путь в локальную папку(`C:\Nextcloud`). После нажмите "Подключиться"
 
 <note>
+  ВАЖНО!!!
 
-ВАЖНО!!!
-
-1. Создайте папку `Nextcloud` на диске С
-
-2. Укажите путь синхронизации файлов в локальную папку `C:\Nextcloud`
-
+  1. Создайте папку `Nextcloud` на диске С
+  2. Укажите путь синхронизации файлов в локальную папку `C:\Nextcloud`
 </note>
 
 ![](./nextcloud-14.jpeg){width=1808px height=835px}
