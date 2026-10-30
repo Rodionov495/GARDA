@@ -1,0 +1,15 @@
+heyeS:
+  comment:
+    dateTime: '2026-10-26T12:25:14.884Z'
+    content: Добавить Гиф
+    user:
+      mail: a.rodionov@gardapro.ru
+      name: Rodionov495
+      id: a.rodionov@gardapro.ru
+  answers:
+    - dateTime: '2026-10-26T12:26:16.366Z'
+      content: Выдели название кнопок
+      user:
+        mail: a.rodionov@gardapro.ru
+        name: Rodionov495
+        id: a.rodionov@gardapro.ru
