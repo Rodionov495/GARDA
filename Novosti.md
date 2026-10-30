@@ -3,6 +3,14 @@ title: Новости
 order: 3
 ---
 
+30\.10.2026
+
+Опубликована новая инструкция «[Очистить систему](https://app.gram.ax/github.com/Rodionov495/GARDA/master/-/BIM-instrykcii/plaginy/garda_obschee/ochistit-sistemu)»
+
+Плагин позволяет очищать систему за несколько секунд, освобождая десятки гигабайт свободного места, Revit начинает работать быстрее и стабильнее.
+
+
+
 05\.10.2026
 
 Опубликована новая инструкция «[Раскрасить последовательности элементов узлов](https://gramax.avilex.ru/Knowledge_Base/BIM-instrykcii/plaginy/garda_vis/eom-ss/pokrasit-posledovatelnosti-elementov-uzlov)»
