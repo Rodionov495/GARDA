@@ -1,9 +1,11 @@
 ---
 title: Очистить систему
-order: 1.3
+order: 0.4
 aliases:
   - path: ochistit-sistemu
     moved: "2026-10-20T10:20:30Z"
+  - path: BIM-instrykcii/plaginy/ochistit-sistemu
+    moved: "2026-10-30T07:50:44Z"
 ---
 
 Плагин в один клик освобождает место на системном диске C:, предотвращая тормоза, долгую синхронизацию и фатальные ошибки при сохранении моделей в Revit.
