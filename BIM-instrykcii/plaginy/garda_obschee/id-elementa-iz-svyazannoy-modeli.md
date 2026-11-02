@@ -16,21 +16,19 @@ aliases:
 
 Плагин расположен на вкладке «**GARDA_Общие**», в панели «**ID**»
 
-<image src="./id-elementa-iz-svyazannoy-modeli.jpeg" crop="0,0,100,100" scale="248px" width="245px" height="91px" float="center"/>
+![](./id-elementa-iz-svyazannoy-modeli.jpeg){width=245px height=91px scale=248px}
 
 ## Как пользоваться
 
 Получение ID из связанной модели возможно двумя способами:
 
--  Заранее выбрать элемент из связанной модели (прожимая Tab) и нажать кнопку плагина:
+- Заранее выбрать элемент из связанной модели (прожимая Tab) и нажать кнопку плагина:
 
 ![](./id-elementa-iz-svyazannoy-modeli.gif){width=1200px height=878px}
 
+- Нажать на кнопку плагина и выбрать элемент связанной модели:
 
-
--  Нажать на кнопку плагина и выбрать элемент связанной модели:
-
-![](./id-elementa-iz-svyazannoy-modeli.gif){width=1322px height=840px}
+  ![](./id-elementa-iz-svyazannoy-modeli.gif){width=1322px height=840px}
 
 ## Итог
 
