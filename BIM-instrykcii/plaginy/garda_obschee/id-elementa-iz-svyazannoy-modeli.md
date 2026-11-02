@@ -24,8 +24,7 @@ aliases:
 
 - Заранее выбрать элемент из связанной модели (прожимая Tab) и нажать кнопку плагина:
 
-![](./id-elementa-iz-svyazannoy-modeli.gif){width=1200px height=878px}
-
+  ![](./id-elementa-iz-svyazannoy-modeli.gif){width=1200px height=878px}
 - Нажать на кнопку плагина и выбрать элемент связанной модели:
 
   ![](./id-elementa-iz-svyazannoy-modeli-2.gif){width=1322px height=840px}
