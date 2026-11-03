@@ -14,66 +14,54 @@ aliases:
 
 При открытии, синхронизации или попытке внести изменения в модель появляется сообщение
 
-<image src="./rasprostranennye-oshibki-v-revit-4.jpeg" crop="0,0,100,100" scale="594px" width="1038px" height="416px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-4.jpeg){width=1038px height=416px scale=594px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Не удалось получить доступ к модели. Невозможно выполнить запрошенную операцию, поскольку модель «имя файла».rvt в данный момент недоступна. Нажмите кнопку "Отмена", чтобы прервать текущую операцию.
-
+  Не удалось получить доступ к модели. Невозможно выполнить запрошенную операцию, поскольку модель «имя файла».rvt в данный момент недоступна. Нажмите кнопку "Отмена", чтобы прервать текущую операцию.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Unable to Access the Model. The requested operation cannot be completed because the model \<filename>.rvt is not currently available. Click Cancel to stop the current operation.
-
+  Unable to Access the Model. The requested operation cannot be completed because the model \<filename>.rvt is not currently available. Click Cancel to stop the current operation.
 </note>
 
 **Причины**
 
 1. Модель/рабочие наборы, или же какие-либо элементы заблокированы для редактирования другим пользователем, так как файл не разделен на рабочие наборы и происходит пересечение пользователей в одном рабочем наборе при работе.
-
 2. Много пользователей работают в одном файле (оптимальное количество - 4 человека).
 
 **Решение**
 
 1. Данная проблема носит временный характер. Подождите некоторое время (до 5 минут) и повторите необходимые действия, синхронизируйте модель, откройте модель или внесите изменения в модель.
-
 2. Разделите элементы в файле по рабочим наборам.
-
 3. Если разделение элементов по рабочим наборам не решило проблему, то пересоздайте файл хранилище по инструкции: «Замена файла хранилища».
 
 **Комментарии**
 
 1. В случае, если модель слишком часто оказывается недоступной, увеличьте значение параметра «Частота обновлений при совместной работе» от 30 до 60 секунд (см. Рисунок 2).
-
 2. Не рекомендуется выставлять значение «Обновление только вручную», при нём другие пользователи не смогут своевременно сообщить о заимствовании элементов или рабочих наборов (запрос на редактирование появится только после синхронизации).
 
-<image src="./rasprostranennye-oshibki-v-revit-5.jpeg" crop="0,0,100,100" scale="536px" width="925px" height="1136px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-5.jpeg){width=925px height=1136px scale=536px}
 
 ## Изменить элемент невозможно до тех пор, пока…
 
 При попытке изменить элементы в файле появляется сообщение.
 
-<image src="./rasprostranennye-oshibki-v-revit-6.jpeg" crop="0,0,100,100" scale="619px" width="1038px" height="464px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-6.jpeg){width=1038px height=464px scale=619px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Изменить элемент невозможно до тех пор, пока пользователь "..." не сохранит элемент в хранилище и не освободит его. После этого необходимо обновить файл из хранилища.
-
+  Изменить элемент невозможно до тех пор, пока пользователь "..." не сохранит элемент в хранилище и не освободит его. После этого необходимо обновить файл из хранилища.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Can't edit the element until "..." resaves the element to central and relinquishes it and you Reload Latest.
-
+  Can't edit the element until "..." resaves the element to central and relinquishes it and you Reload Latest.
 </note>
 
 **Причины**
@@ -83,67 +71,54 @@ Can't edit the element until "..." resaves the element to central and relinquish
 **Решение**
 
 1. Освободите рабочие наборы, занятые другим пользователем.
-
 2. Запустите параллельно еще один сеанс Revit.
-
 3. Закройте главную страницу Revit.
-
 4. Перейдите в «Файл» -> «Параметры» -> вкладка «Общие».
-
 5. В поле «Имя пользователя» введите имя пользователя, который занял рабочий набор, нажмите «ОК» (см. Рисунок 4).
 
-<image src="./rasprostranennye-oshibki-v-revit-7.jpeg" crop="0,0,100,100" scale="991px" width="1038px" height="530px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-7.jpeg){width=1038px height=530px scale=991px}
 
 ## У вас нет прав на редактирование элемента
 
 При попытке изменить элементы в файле появляется сообщение.
 
-<image src="./rasprostranennye-oshibki-v-revit-8.jpeg" crop="0,0,100,100" scale="685px" width="1038px" height="464px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-8.jpeg){width=1038px height=464px scale=685px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-У вас нет прав на редактирование элемента. Изменения окажутся временными и не будут сохранены.
-
+  У вас нет прав на редактирование элемента. Изменения окажутся временными и не будут сохранены.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-You do not have permission to edit the element.
-
+  You do not have permission to edit the element.
 </note>
 
 **Решение**
 
 1. Необходимо, чтобы все пользователи последовательно синхронизировались с освобождением рабочих наборов.
-
 2. Пользователь, у которого возникает ошибка, должен синхронизироваться последним.
 
-<image src="./rasprostranennye-oshibki-v-revit-9.jpeg" crop="0,0,100,100" scale="510px" width="728px" height="559px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-9.jpeg){width=728px height=559px scale=510px}
 
 ## Просмотр координации для связанных файлов
 
 При открытии, загрузке или повторной загрузке модели с отслеживаемыми элементами появляется предупреждение.
 
-<image src="./rasprostranennye-oshibki-v-revit-10.jpeg" crop="0,0,100,100" scale="560px" width="1038px" height="863px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-10.jpeg){width=1038px height=863px scale=560px}
 
 **Текст предупреждения (rus):**
 
 <note type="quote">
-
-"Для экземпляра связи требуется просмотр координаций."
-
+  "Для экземпляра связи требуется просмотр координаций."
 </note>
 
 **Текст предупреждения (eng):**
 
 <note type="quote">
-
-"Instance of link needs Coordination Review."
-
+  "Instance of link needs Coordination Review."
 </note>
 
 **Причины**
@@ -157,13 +132,11 @@ You do not have permission to edit the element.
 Для этого:
 
 1. Перейдите на один из видов в котором можно выделить связанный файл.
-
 2. На вкладке «Совместная работа» \[1\] - выберите «Просмотр координаций» \[2\], а затем – «Выбрать связь» \[3\] (см. Рисунок 8).
 
 ![](./rasprostranennye-oshibki-v-revit-11.jpeg){width=1038px height=235px}
 
 1. Выберите экземпляр связи, для которого требуется просмотр координаций.
-
 2. В появившемся окне Просмотра координаций, можно увидеть все изменения и выбрать одно из предложенных действий для применения или отказа от изменений.
 
 **Предложенные действия:**
@@ -182,29 +155,24 @@ You do not have permission to edit the element.
 
 При попытке сделать проверку на пересечения со связанным файлом возникает ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-12.jpeg" crop="0,0,100,100" scale="556px" width="1038px" height="703px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-12.jpeg){width=1038px height=703px scale=556px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Произошла серьезная ошибка. Текущая операция отменена. Перед продолжением настоятельно рекомендуется сохранить результаты работы в новом файле. Сохранить файл восстановления?
-
+  Произошла серьезная ошибка. Текущая операция отменена. Перед продолжением настоятельно рекомендуется сохранить результаты работы в новом файле. Сохранить файл восстановления?
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-A serious error has occurred. The current action has been cancelled. It is strongly recommended that you save your work in a new file before continuing. Would you like to save a recovery file?
-
+  A serious error has occurred. The current action has been cancelled. It is strongly recommended that you save your work in a new file before continuing. Would you like to save a recovery file?
 </note>
 
 **Причины**
 
--  Связанный файл содержит в себе другой связанный файл с типом связи «Прикрепление».
-
--  В связанном файле отсутствуют элементы соответствующей категории, с которой осуществляется проверка. Например, «Стены».
+- Связанный файл содержит в себе другой связанный файл с типом связи «Прикрепление».
+- В связанном файле отсутствуют элементы соответствующей категории, с которой осуществляется проверка. Например, «Стены».
 
 **Решение**
 
@@ -214,7 +182,7 @@ A serious error has occurred. The current action has been cancelled. It is stron
 
 На вкладке «Управление» в «Диспетчере связей» измените тип связи файла на «Наложение».
 
-<image src="./rasprostranennye-oshibki-v-revit-13.jpeg" crop="0,0,100,100" scale="592px" width="800px" height="709px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-13.jpeg){width=800px height=709px scale=592px}
 
 **Вариант 2**
 
@@ -224,27 +192,23 @@ A serious error has occurred. The current action has been cancelled. It is stron
 
 Не удается передвинуть элемент.
 
-<image src="./rasprostranennye-oshibki-v-revit-14.jpeg" crop="0,0,100,100" scale="593px" width="1038px" height="464px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-14.jpeg){width=1038px height=464px scale=593px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Невозможно изменить элемент, так как он был удален в модели из хранилища.
-
+  Невозможно изменить элемент, так как он был удален в модели из хранилища.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Can't edit the element. It was deleted in the Central Model.
-
+  Can't edit the element. It was deleted in the Central Model.
 </note>
 
 **Причины**
 
--  В проекте имеются поврежденные семейства.
+- В проекте имеются поврежденные семейства.
 
 **Решение**
 
@@ -252,9 +216,8 @@ Can't edit the element. It was deleted in the Central Model.
 
 В случае, если с файлом работают более 1 проектировщика:
 
--  Синхронизируйтесь по очереди. Тот, у которого возникает ошибка синхронизируется последним.
-
--  Если ошибка не пропала см. Вариант 2.
+- Синхронизируйтесь по очереди. Тот, у которого возникает ошибка синхронизируется последним.
+- Если ошибка не пропала см. Вариант 2.
 
 **Вариант 2**
 
@@ -274,11 +237,11 @@ Can't edit the element. It was deleted in the Central Model.
 
 Сохраните файл поверх файла хранилища через «Сохранить как» и выберите путь к модели. Может возникнуть предупреждение, в котором выберите «Да». После этого сохраненный вами файл будет считаться файлом хранилища.
 
-<image src="./rasprostranennye-oshibki-v-revit-17.jpeg" crop="0,0,100,100" scale="497px" width="564px" height="322px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-17.jpeg){width=564px height=322px scale=497px}
 
 Освободите все забранные рабочие наборы.
 
-<image src="./rasprostranennye-oshibki-v-revit-18.jpeg" crop="0,0,100,100" scale="501px" width="566px" height="186px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-18.jpeg){width=566px height=186px scale=501px}
 
 Синхронизируйте модель.
 
@@ -291,31 +254,25 @@ Can't edit the element. It was deleted in the Central Model.
 Узнать кто работает над текущим файлом:
 
 1. Перейти на вкладку «Совместная работа».
-
 2. Команда «Показать журнал».
-
 3. Выбрать нужный файл.
 
 ## Произошла серьезная ошибка при работе с семействами
 
 При работе с семействами (моделирование, изменение свойств).
 
-<image src="./rasprostranennye-oshibki-v-revit-19.jpeg" crop="0,0,100,100" scale="554px" width="719px" height="314px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-19.jpeg){width=719px height=314px scale=554px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Произошла серьезная ошибка. Настоятельно рекомендуется сохранить файл под другим именем, прежде чем продолжать".
-
+  Произошла серьезная ошибка. Настоятельно рекомендуется сохранить файл под другим именем, прежде чем продолжать".
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-A serious error has occurred. It is strongly recommended that you save your work in a new file before continuing".
-
+  A serious error has occurred. It is strongly recommended that you save your work in a new file before continuing".
 </note>
 
 **Причины**
@@ -346,7 +303,7 @@ A serious error has occurred. It is strongly recommended that you save your work
 
 Внести в семейство небольшое изменение (немного подвинуть на виде или существующем разрезе/фасаде размерную линию), далее нажать «Загрузить в проект и закрыть», сохранять семейство не нужно.
 
-<image src="./rasprostranennye-oshibki-v-revit-22.jpeg" crop="0,0,100,100" scale="641px" width="1036px" height="755px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-22.jpeg){width=1036px height=755px scale=641px}
 
 **Вариант 3**
 
@@ -356,22 +313,18 @@ A serious error has occurred. It is strongly recommended that you save your work
 
 При внедрении связи появляется предупреждение.
 
-<image src="./rasprostranennye-oshibki-v-revit-23.jpeg" crop="0,0,100,100" scale="666px" width="1038px" height="464px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-23.jpeg){width=1038px height=464px scale=666px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Не удалось внедрить выбранные связи.
-
+  Не удалось внедрить выбранные связи.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Unable to blind the selected links.
-
+  Unable to blind the selected links.
 </note>
 
 **Причины**
@@ -416,22 +369,18 @@ Unable to blind the selected links.
 
 При переходе на вид/план/разрез/лист или редактировании групп/семейств, появляется предупреждение.
 
-<image src="./rasprostranennye-oshibki-v-revit-25.jpeg" crop="0,0,100,100" scale="565px" width="729px" height="325px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-25.jpeg){width=729px height=325px scale=565px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Произошла ошибка при прорисовке содержимого этого окна. Окно будет закрыто.
-
+  Произошла ошибка при прорисовке содержимого этого окна. Окно будет закрыто.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-An error has occurred while drawing the contents of this window. This window shall be closed.
-
+  An error has occurred while drawing the contents of this window. This window shall be closed.
 </note>
 
 **Решение**
@@ -460,44 +409,30 @@ An error has occurred while drawing the contents of this window. This window sha
 
 Если не помогло отключение аппаратного ускорения необходимо проверить, проблема в файле или проблема в связанных файлах. Выгрузите из файла все связанные файлы (сначала нажмите «Для меня», если не поможет, то «Для всех пользователей»).
 
-<image src="./rasprostranennye-oshibki-v-revit-28.jpeg" crop="0,0,100,100" scale="661px" width="877px" height="739px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-28.jpeg){width=877px height=739px scale=661px}
 
 1. Синхронизируйте модель.
-
 2. Закройте файл.
-
 3. Откройте файл со всеми включенными рабочими наборами (кроме наборов, содержащих связанные файлы). Если ошибка сохранится, то проблема в файле.
-
 4. Закройте файл и заново откройте его с проверкой.
 
 **Вариант 3**
 
 1. Замените файл хранилище. В этом случае возможна потеря информации, если с файлом хранилища с момента последней синхронизации работали другие проектировщики. В случае одновременной работы нескольких сотрудников изменения сохранятся только из одного файла (того которым заменили файл хранилище). Изменения из других файлов необходимо будет перенести вручную из локальных копий. Для этого перед заменой всем участникам нужно синхронизироваться и закрыть локальные копии. Если синхронизации не проходят, то изменения из локальных файлов нужно будет перенести вручную.
-
 2. Откройте файл, с отсоединением от файла хранилища и проверкой.
-
 3. При открытии выберите «Задать» (какие рабочие наборы необходимо подгрузить).
-
 4. Закройте все рабочие наборы, кроме того, в котором находятся общие уровни и сетки.
-
 5. Удалите файл из папки, где он располагается.
-
 6. Сохраните открытый файл в ту же папку (где ранее располагался файл)
-
 7. Освободите все забранные рабочие наборы.
-
 8. Синхронизируйте модель.
-
 9. Закройте файл.
-
 10. Создайте новый локальный файл и продолжайте работу.
 
 **Вариант 4**
 
 1. Если проблема в связанном файле, то найдите этот проблемный файл, обновляя каждый по очереди:
-
 2. Откройте проблемный файл с проверкой.
-
 3. Если открытие файла с проверкой не помогло, то пересоздайте файла хранилище (см. «Вариант 3»).
 
 **Вариант 5**
@@ -516,22 +451,18 @@ An error has occurred while drawing the contents of this window. This window sha
 
 При добавлении/обновлении связи возникает ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-31.jpeg" crop="0,0,100,100" scale="580px" width="1038px" height="460px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-31.jpeg){width=1038px height=460px scale=580px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Не найден связанный документ...rvt. Связь не будет загружена.
-
+  Не найден связанный документ...rvt. Связь не будет загружена.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Cannot open linked document....rvt. The link will be unloaded.
-
+  Cannot open linked document....rvt. The link will be unloaded.
 </note>
 
 **Причины**
@@ -558,22 +489,18 @@ Cannot open linked document....rvt. The link will be unloaded.
 
 При обновлении связей появляется сообщение.
 
-<image src="./rasprostranennye-oshibki-v-revit-32.jpeg" crop="0,0,100,100" scale="524px" width="713px" height="316px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-32.jpeg){width=713px height=316px scale=524px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Связь не может быть обновлена, поскольку она загружена в другом открытом документе.
-
+  Связь не может быть обновлена, поскольку она загружена в другом открытом документе.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-The link cannot be updated because it is loaded in another open document.
-
+  The link cannot be updated because it is loaded in another open document.
 </note>
 
 **Причины**
@@ -602,28 +529,24 @@ The link cannot be updated because it is loaded in another open document.
 
 Перейдите к активному виду первого файла, откройте диспетчер связей и обновите связь.
 
-<image src="./rasprostranennye-oshibki-v-revit-34.jpeg" crop="0,0,100,100" scale="644px" width="720px" height="234px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-34.jpeg){width=720px height=234px scale=644px}
 
 ## Начало экземпляра не лежит на грани основы
 
 При попытке сгруппировать семейства появляется предупреждение.
 
-<image src="./rasprostranennye-oshibki-v-revit-35.jpeg" crop="0,0,100,100" scale="637px" width="1038px" height="464px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-35.jpeg){width=1038px height=464px scale=637px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Начало экземпляра не лежит на грани основы. Будет разорвана связь экземпляра с основой.
-
+  Начало экземпляра не лежит на грани основы. Будет разорвана связь экземпляра с основой.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Instance origin does not lie on host face. Instance will lose association to host.
-
+  Instance origin does not lie on host face. Instance will lose association to host.
 </note>
 
 **Причины**
@@ -640,7 +563,7 @@ Instance origin does not lie on host face. Instance will lose association to hos
 
 Переназначьте основу для семейства на уровни или иной системный элемент из вашего проекта.
 
-<image src="./rasprostranennye-oshibki-v-revit-36.jpeg" crop="0,0,100,100" scale="574px" width="728px" height="493px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-36.jpeg){width=728px height=493px scale=574px}
 
 Обновите связь.
 
@@ -648,7 +571,7 @@ Instance origin does not lie on host face. Instance will lose association to hos
 
 При копировании видов из другого проекта, при загрузке семейства возникает ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-37.jpeg" crop="0,0,100,100" scale="597px" width="1038px" height="464px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-37.jpeg){width=1038px height=464px scale=597px}
 
 **Причины**
 
@@ -704,22 +627,18 @@ Instance origin does not lie on host face. Instance will lose association to hos
 
 При экспорте в.dwg из Revit возникает ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-41.jpeg" crop="0,0,100,100" scale="540px" width="1038px" height="813px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-41.jpeg){width=1038px height=813px scale=540px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Не удалось создать....dwg, или файл уже используется. Закройте файл и нажмите "ОК".
-
+  Не удалось создать....dwg, или файл уже используется. Закройте файл и нажмите "ОК".
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Can't create....dwg, or the file is already in use. Please close file and press "OK".
-
+  Can't create....dwg, or the file is already in use. Please close file and press "OK".
 </note>
 
 **Причины**
@@ -740,7 +659,7 @@ Can't create....dwg, or the file is already in use. Please close file and press 
 
 Перенесите в нужную папку.
 
-<image src="./rasprostranennye-oshibki-v-revit-42.jpeg" crop="0,0,100,100" scale="701px" width="1038px" height="668px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-42.jpeg){width=1038px height=668px scale=701px}
 
 **Вариант 2**
 
@@ -750,22 +669,18 @@ Can't create....dwg, or the file is already in use. Please close file and press 
 
 Появляется предупреждение о необходимости удаления элементов модели.
 
-<image src="./rasprostranennye-oshibki-v-revit-43.jpeg" crop="0,0,100,100" scale="649px" width="1038px" height="863px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-43.jpeg){width=1038px height=863px scale=649px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Невозможно создать зависимости для связанных экземпляров с помощью общих площадок.
-
+  Невозможно создать зависимости для связанных экземпляров с помощью общих площадок.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-It is not possible to create dependencies for related instances using shared sites.
-
+  It is not possible to create dependencies for related instances using shared sites.
 </note>
 
 **Причины**
@@ -784,22 +699,18 @@ It is not possible to create dependencies for related instances using shared sit
 
 Появляется предупреждение о аварийном прекращении работы Autodesk Revit.
 
-<image src="./rasprostranennye-oshibki-v-revit-44.jpeg" crop="0,0,100,100" scale="476px" width="1038px" height="703px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-44.jpeg){width=1038px height=703px scale=476px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Программа "Autodesk Revit" не работает. Возникшая проблема привела к прекращению работы программы. Windows закроет эту программу, а если есть известный способ устранения проблемы, уведомит вас об этом.
-
+  Программа "Autodesk Revit" не работает. Возникшая проблема привела к прекращению работы программы. Windows закроет эту программу, а если есть известный способ устранения проблемы, уведомит вас об этом.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Autodesk Revit has stopped working. A problem caused the program to stop working correctly. Windows will close the program and notify you if a solution is available.
-
+  Autodesk Revit has stopped working. A problem caused the program to stop working correctly. Windows will close the program and notify you if a solution is available.
 </note>
 
 **Причины**
@@ -816,7 +727,7 @@ Autodesk Revit has stopped working. A problem caused the program to stop working
 
 Откройте файл с проверкой.
 
-<image src="./rasprostranennye-oshibki-v-revit-45.jpeg" crop="0,0,100,100" scale="682px" width="1038px" height="764px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-45.jpeg){width=1038px height=764px scale=682px}
 
 **Вариант 2 (если файл не открывается с проверкой)**
 
@@ -836,9 +747,8 @@ Autodesk Revit has stopped working. A problem caused the program to stop working
 
 **Вариант 3 (если Revit закрывается при закрытии файла)**
 
--  Аварийное завершение Revit при закрытии файла может говорить о конфликте настроек или некорректной установке программы в целом.
-
--  Попробуйте:
+- Аварийное завершение Revit при закрытии файла может говорить о конфликте настроек или некорректной установке программы в целом.
+- Попробуйте:
 
 Отключить плагины, которые пакетом устанавливаются при установке Revit: Перенесите из папки:
 
@@ -852,58 +762,46 @@ C:\\ProgramData\\Autodesk\\Revit\\Addins\<version>
 
 Файл не открывается, появляется предупреждение и Revit аварийно закрывается.
 
-<image src="./rasprostranennye-oshibki-v-revit-47.jpeg" crop="0,0,100,100" scale="554px" width="1038px" height="460px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-47.jpeg){width=1038px height=460px scale=554px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Произошла непоправимая ошибка. Программа будет закрыта. Все ваши данные недавно были сохранены, поэтому файлы для восстановления создавать не требуется.
-
+  Произошла непоправимая ошибка. Программа будет закрыта. Все ваши данные недавно были сохранены, поэтому файлы для восстановления создавать не требуется.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-An unrecoverable error has occurred. The program will now be terminated. All of your data has been recently saved, so there is no need to create recovery files.
-
+  An unrecoverable error has occurred. The program will now be terminated. All of your data has been recently saved, so there is no need to create recovery files.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-48.jpeg" crop="0,0,100,100" scale="551px" width="1038px" height="460px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-48.jpeg){width=1038px height=460px scale=551px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Произошла серьезная ошибка. Текущая операция прервана".
-
+  Произошла серьезная ошибка. Текущая операция прервана".
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-A serious error has occurred. The current action has been cancelled".
-
+  A serious error has occurred. The current action has been cancelled".
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-49.jpeg" crop="0,0,100,100" scale="445px" width="1038px" height="1392px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-49.jpeg){width=1038px height=1392px scale=445px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Ошибка программы привела к непредвиденному закрытию Revit...".
-
+  Ошибка программы привела к непредвиденному закрытию Revit...".
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-A software problem has caused Revit... to close unexpectedly".
-
+  A software problem has caused Revit... to close unexpectedly".
 </note>
 
 **Причины**
@@ -946,40 +844,32 @@ A software problem has caused Revit... to close unexpectedly".
 
 При открытии файла возникает ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-53.jpeg" crop="0,0,100,100" scale="543px" width="1038px" height="707px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-53.jpeg){width=1038px height=707px scale=543px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Приложение Revit не может выполнить данную операцию, так как выполняется попытка доступа к файлам или папкам, которые не существуют или были перенесены.
-
+  Приложение Revit не может выполнить данную операцию, так как выполняется попытка доступа к файлам или папкам, которые не существуют или были перенесены.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Revit cannot perform this operation because it is trying to access files or folders that do not exist or have been migrated.
-
+  Revit cannot perform this operation because it is trying to access files or folders that do not exist or have been migrated.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-54.jpeg" crop="0,0,100,100" scale="559px" width="1038px" height="461px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-54.jpeg){width=1038px height=461px scale=559px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Модель из хранилища отсутствует по указанному пути. Модель хранилища удалена или перенесена.
-
+  Модель из хранилища отсутствует по указанному пути. Модель хранилища удалена или перенесена.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-The model from the repository is missing at the specified path. The storage model has been removed or migrated.
-
+  The model from the repository is missing at the specified path. The storage model has been removed or migrated.
 </note>
 
 **Причины**
@@ -1008,40 +898,32 @@ The model from the repository is missing at the specified path. The storage mode
 
 Файл Revit не открывается, появляется предупреждение.
 
-<image src="./rasprostranennye-oshibki-v-revit-55.jpeg" crop="0,0,100,100" scale="511px" width="1038px" height="704px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-55.jpeg){width=1038px height=704px scale=511px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Приложению Revit не удается создать локальный файл на основе файла хранилища...
-
+  Приложению Revit не удается создать локальный файл на основе файла хранилища...
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Revit cannot create a local copy based on central file '.....'.
-
+  Revit cannot create a local copy based on central file '.....'.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-56.jpeg" crop="0,0,100,100" scale="498px" width="1038px" height="704px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-56.jpeg){width=1038px height=704px scale=498px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Приложению Revit не удалось создать локальный файл на основе файла хранилища...
-
+  Приложению Revit не удалось создать локальный файл на основе файла хранилища...
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Revit could not create a local file from...
-
+  Revit could not create a local file from...
 </note>
 
 **Причины**
@@ -1104,22 +986,18 @@ Revit could not create a local file from...
 
 При запуске Revit появляется ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-59.jpeg" crop="0,0,100,100" scale="518px" width="741px" height="611px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-59.jpeg){width=741px height=611px scale=518px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-... Не удалось построить ленту -> --- Конец трассировки внутреннего стека исключений.
-
+  ... Не удалось построить ленту -> --- Конец трассировки внутреннего стека исключений.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-... Failed to build tape -> --- End of exception internal stack trace.
-
+  ... Failed to build tape -> --- End of exception internal stack trace.
 </note>
 
 **Причины**
@@ -1130,7 +1008,7 @@ Revit could not create a local file from...
 
 **Решение**
 
--  Удалите лишние сторонние плагины Revit, которые формируют вкладки на ленте:
+- Удалите лишние сторонние плагины Revit, которые формируют вкладки на ленте:
 
 Через «Панель управления» - «Удаление программ»
 
@@ -1138,7 +1016,7 @@ Revit could not create a local file from...
 
 Через удаление файлов плагинов из папки %appdata%\\Autodesk\\Revit\\Addins\<version>
 
--  Дополнительно проверьте:
+- Дополнительно проверьте:
 
 C:\\ProgramData\\Autodesk\\ApplicationPlugins - эту папку можно использовать для надстроек, которые предназначены для нескольких программ или версий.
 
@@ -1148,22 +1026,18 @@ C:\\Program Files\\Autodesk\\Revit \<version>\\AddIns - эта папка исп
 
 При запуске Revit появляется ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-61.jpeg" crop="0,0,100,100" scale="487px" width="965px" height="805px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-61.jpeg){width=965px height=805px scale=487px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Этот документ содержит макросы. Выберите одну из следующих возможностей.
-
+  Этот документ содержит макросы. Выберите одну из следующих возможностей.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-This document contains macros. Select one of the following options.
-
+  This document contains macros. Select one of the following options.
 </note>
 
 **Причины**
@@ -1188,22 +1062,18 @@ This document contains macros. Select one of the following options.
 
 При запуске Revit появляется ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-62.jpeg" crop="0,0,100,100" scale="505px" width="1038px" height="737px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-62.jpeg){width=1038px height=737px scale=505px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Один или несколько требуемых внутренних параметров отсутствуют в модели. Какое действие необходимо выполнить?
-
+  Один или несколько требуемых внутренних параметров отсутствуют в модели. Какое действие необходимо выполнить?
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-One or more required internal settings are missing from the model. What do you want to do?
-
+  One or more required internal settings are missing from the model. What do you want to do?
 </note>
 
 **Причины**
@@ -1224,18 +1094,14 @@ One or more required internal settings are missing from the model. What do you w
 
 **Важно!** Для того, чтобы узнать кто работает над текущим файлом:
 
--  Перейдите на вкладку Совместная работа.
+- Перейдите на вкладку Совместная работа.
+- Нажмите кнопку Показать журнал.
+- Выберите нужный файл.
 
--  Нажмите кнопку Показать журнал.
-
--  Выберите нужный файл.
-
-<image src="./rasprostranennye-oshibki-v-revit-63.jpeg" crop="0,0,100,100" scale="544px" width="993px" height="666px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-63.jpeg){width=993px height=666px scale=544px}
 
 <note>
-
-Перед заменой файла хранилища всем участникам нужно синхронизироваться и закрыть локальные копии. Если синхронизации не проходят, то изменения из локальных файлов нужно будет перенести вручную.
-
+  Перед заменой файла хранилища всем участникам нужно синхронизироваться и закрыть локальные копии. Если синхронизации не проходят, то изменения из локальных файлов нужно будет перенести вручную.
 </note>
 
 Откройте файл с отсоединением от файла хранилища и проверкой.
@@ -1254,22 +1120,18 @@ One or more required internal settings are missing from the model. What do you w
 
 При открытии файла появляется ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-64.jpeg" crop="0,0,100,100" scale="585px" width="1020px" height="682px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-64.jpeg){width=1020px height=682px scale=585px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-В модели....rvt отсутствует большое количество элементов, поэтому она не может быть открыта.
-
+  В модели....rvt отсутствует большое количество элементов, поэтому она не может быть открыта.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-The file....rvt cannot be opened. There are too many elements missing in it. Please contact Autodesk Support.
-
+  The file....rvt cannot be opened. There are too many elements missing in it. Please contact Autodesk Support.
 </note>
 
 **Причины**
@@ -1366,22 +1228,18 @@ The file....rvt cannot be opened. There are too many elements missing in it. Ple
 
 При открытии модели Revit для некоторых плагинов появляется предупреждение (Данное предупреждения появляется не для всех надстроек и плагинов).
 
-<image src="./rasprostranennye-oshibki-v-revit-68.jpeg" crop="0,0,100,100" scale="535px" width="1038px" height="551px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-68.jpeg){width=1038px height=551px scale=535px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Невозможно проверить разработчика этой надстройки. Какое действие необходимо выполнить?
-
+  Невозможно проверить разработчика этой надстройки. Какое действие необходимо выполнить?
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-The publisher of this add-in could not be verified. What do you want to do?
-
+  The publisher of this add-in could not be verified. What do you want to do?
 </note>
 
 **Причины**
@@ -1408,22 +1266,18 @@ C:\\Program Files\\Autodesk\\Revit \[версия\]\\AddIns - эта папка 
 
 При открытии второго файла в одном сеансе Revit появляется предупреждение и программа закрывается.
 
-<image src="./rasprostranennye-oshibki-v-revit-69.jpeg" crop="0,0,100,100" scale="543px" width="1038px" height="474px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-69.jpeg){width=1038px height=474px scale=543px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Произошла ошибка при прорисовке содержимого этого окна. Окно будет закрыто.
-
+  Произошла ошибка при прорисовке содержимого этого окна. Окно будет закрыто.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-An error has occurred while drawing the contents of this window. This window shall be closed.
-
+  An error has occurred while drawing the contents of this window. This window shall be closed.
 </note>
 
 **Решение**
@@ -1432,23 +1286,18 @@ An error has occurred while drawing the contents of this window. This window sha
 
 Очистите диск:
 
--  Очистите папку с резервными копиями файлов Revit
-
--  Очистите папку Temp, для этого:
-
--  Скопируйте в проводник %Temp% (либо C:\\USERS\\Имя пользователя\\AppData\\Local\\Temp)
-
--  Выберите все файлы внутри папки, удалите через комбинацию клавиш Shift+Delete (безвозвратное удаление, минуя корзину). Для некоторых файлов в появляющихся ошибках нажмите "Пропустить"
-
--  Очистите папку Journals C:\\USERS\\Имя пользователя\\AppData\\Local\\Autodesk\\Revit\\ Autodesk Revit \<version>\\Journals
+- Очистите папку с резервными копиями файлов Revit
+- Очистите папку Temp, для этого:
+- Скопируйте в проводник %Temp% (либо C:\\USERS\\Имя пользователя\\AppData\\Local\\Temp)
+- Выберите все файлы внутри папки, удалите через комбинацию клавиш Shift+Delete (безвозвратное удаление, минуя корзину). Для некоторых файлов в появляющихся ошибках нажмите "Пропустить"
+- Очистите папку Journals C:\\USERS\\Имя пользователя\\AppData\\Local\\Autodesk\\Revit\\ Autodesk Revit \<version>\\Journals
 
 Откройте файл с проверкой.
 
 Поставьте галку напротив «Проверить» \[1\]. В появившемся окне «Да» \[2\], согласно. Если не помогло, то:
 
--  Воспользуйтесь инструкцией «Предупреждение при переходе на вид (Произошла ошибка при прорисовке содержимого этого окна)».
-
--  Проверьте файлы и очистите их от неиспользуемых связей, элементов и т. д.
+- Воспользуйтесь инструкцией «Предупреждение при переходе на вид (Произошла ошибка при прорисовке содержимого этого окна)».
+- Проверьте файлы и очистите их от неиспользуемых связей, элементов и т. д.
 
 ![](./rasprostranennye-oshibki-v-revit-70.jpeg){width=1038px height=656px}
 
@@ -1456,58 +1305,46 @@ An error has occurred while drawing the contents of this window. This window sha
 
 При открытии второго файла в одном сеансе Revit появляется предупреждение и программа закрывается.
 
-<image src="./rasprostranennye-oshibki-v-revit-71.jpeg" crop="0,0,100,100" scale="385px" width="1038px" height="815px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-71.jpeg){width=1038px height=815px scale=385px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-На диске D: недостаточно места для создания временных файлов, необходимых для Revit. Либо освободите пространство на этом диске, либо переопределите системную переменную TMP Windows, чтобы она указывала на папку другого диска, где есть свободное место.
-
+  На диске D: недостаточно места для создания временных файлов, необходимых для Revit. Либо освободите пространство на этом диске, либо переопределите системную переменную TMP Windows, чтобы она указывала на папку другого диска, где есть свободное место.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-There is not enough space on drive C: to create the temporary files that Revit needs. Either free up space on this drive, or redefine Windows user variable TMP to be a folder on another drive with more space.
-
+  There is not enough space on drive C: to create the temporary files that Revit needs. Either free up space on this drive, or redefine Windows user variable TMP to be a folder on another drive with more space.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-72.jpeg" crop="0,0,100,100" scale="374px" width="1038px" height="815px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-72.jpeg){width=1038px height=815px scale=374px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Объем памяти данного компьютера недостаточен для открытия файла......rvt в Autodesk Revit 2019. Увеличьте объем доступной памяти или свяжитесь с отделом технической поддержки Autodesk для получения дополнительной информации.
-
+  Объем памяти данного компьютера недостаточен для открытия файла......rvt в Autodesk Revit 2019. Увеличьте объем доступной памяти или свяжитесь с отделом технической поддержки Autodesk для получения дополнительной информации.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-The amount of memory on this computer is insufficient to open the file ""....."" in Autodesk Revit 2019. Increase the amount of available memory or contact the Autodesk Technical Support department for more information.
-
+  The amount of memory on this computer is insufficient to open the file ""....."" in Autodesk Revit 2019. Increase the amount of available memory or contact the Autodesk Technical Support department for more information.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-73.jpeg" crop="0,0,100,100" scale="478px" width="1038px" height="462px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-73.jpeg){width=1038px height=462px scale=478px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Недостаточно места на локальном диске. Данная операция не может быть завершена. Освободите место на диске и повторите попытку.
-
+  Недостаточно места на локальном диске. Данная операция не может быть завершена. Освободите место на диске и повторите попытку.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-There is not enough space on the local disk. This operation cannot be completed. Free up disk space and try again.
-
+  There is not enough space on the local disk. This operation cannot be completed. Free up disk space and try again.
 </note>
 
 **Причины**
@@ -1522,13 +1359,10 @@ There is not enough space on the local disk. This operation cannot be completed.
 
 Очистите от лишних файлов папки:
 
--  Загрузки
-
--  Рабочий стол
-
--  Корзину
-
--  Мои документы
+- Загрузки
+- Рабочий стол
+- Корзину
+- Мои документы
 
 Удалите все файлы журналов (кроме сегодняшней даты) из каталога:
 
@@ -1546,9 +1380,8 @@ localappdata%\\Autodesk\\Revit\\Autodesk Revit \<version>\\Journals
 
 Очистить папку «Temp», для этого:
 
--  Скопируйте в проводник «%Temp%» (либо С:\\USERS\\Имя пользователя\\AppData\\Local\\Temp)
-
--  Выберите все файлы внутри папки, удалите через комбинацию клавиш Shift+Delete (безвозвратное удаление, минуя корзину). Для некоторых файлов в появляющихся ошибках нажмите «Пропустить».
+- Скопируйте в проводник «%Temp%» (либо С:\\USERS\\Имя пользователя\\AppData\\Local\\Temp)
+- Выберите все файлы внутри папки, удалите через комбинацию клавиш Shift+Delete (безвозвратное удаление, минуя корзину). Для некоторых файлов в появляющихся ошибках нажмите «Пропустить».
 
 Запустите программу Revit, откройте файл, при открытии закройте ненужные рабочие наборы.
 
@@ -1558,40 +1391,32 @@ localappdata%\\Autodesk\\Revit\\Autodesk Revit \<version>\\Journals
 
 При открытии файла или подгрузке связей в Revit возникает ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-75.jpeg" crop="0,0,100,100" scale="430px" width="1038px" height="705px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-75.jpeg){width=1038px height=705px scale=430px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Некоторые элементы утеряны при импорте. ActiveX и некоторые патентованные компоненты не могут быть импортированы.
-
+  Некоторые элементы утеряны при импорте. ActiveX и некоторые патентованные компоненты не могут быть импортированы.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Some elements were lost during import. ActiveX and some proprietary components cannot be imported.
-
+  Some elements were lost during import. ActiveX and some proprietary components cannot be imported.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-76.jpeg" crop="0,0,100,100" scale="426px" width="1038px" height="527px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-76.jpeg){width=1038px height=527px scale=426px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-При импорте не обнаружено подходящих элементов в пространстве модели. Импортировать их из пространства Бумага?
-
+  При импорте не обнаружено подходящих элементов в пространстве модели. Импортировать их из пространства Бумага?
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Import detected no valid elenets in the file's Paper space. Do you want to import from Model space?
-
+  Import detected no valid elenets in the file's Paper space. Do you want to import from Model space?
 </note>
 
 **Причины**
@@ -1614,22 +1439,18 @@ Import detected no valid elenets in the file's Paper space. Do you want to impor
 
 Появляется предупреждение при работе с группами, открытии файла, обновлении связи.
 
-<image src="./rasprostranennye-oshibki-v-revit-77.jpeg" crop="0,0,100,100" scale="641px" width="1038px" height="474px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-77.jpeg){width=1038px height=474px scale=641px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Один или несколько опорных элементов размеров сейчас некорректны.
-
+  Один или несколько опорных элементов размеров сейчас некорректны.
 </note>
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-One or more dimension references are or have become invalid.
-
+  One or more dimension references are or have become invalid.
 </note>
 
 **Причины**
@@ -1669,17 +1490,13 @@ One or more dimension references are or have become invalid.
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Приложению Revit не удалось запустить команду внешнее приложение "...". Обратитесь в соответствующую службу поддержки. Revit содержит следующую информацию по данной службе:....
-
+  Приложению Revit не удалось запустить команду внешнее приложение "...". Обратитесь в соответствующую службу поддержки. Revit содержит следующую информацию по данной службе:....
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Revit Cannot run the external application "Collaborate". Contact the provider for assistance. Information they provided to Revit about their identity:....
-
+  Revit Cannot run the external application "Collaborate". Contact the provider for assistance. Information they provided to Revit about their identity:....
 </note>
 
 **Решение**
@@ -1694,48 +1511,40 @@ Revit Cannot run the external application "Collaborate". Contact the provider fo
 
 Через «Панель управления» - «Удаление программ»
 
--  Через удаление файлов плагинов из папки
-
--  %Appdata%\\Autodesk\\Revit\\Addins\[версия\]
-
--  Через удаление файлов плагинов из папки
+- Через удаление файлов плагинов из папки
+- %Appdata%\\Autodesk\\Revit\\Addins\[версия\]
+- Через удаление файлов плагинов из папки
 
 C:\\ProgramData\\Autodesk\\Revit\\Addins\[версия\]
 
 Дополнительно проверьте:
 
--  C:\\ProgramData\\Autodesk\\ApplicationPlugins - эту папку можно использовать для надстроек, которые предназначены для нескольких программ или версий.
-
--  C:\\Program Files\\Autodesk\\Revit \[версия\]\\AddIns - эта папка используется для внутренних надстроек, но некоторые более ранние версии надстроек могут быть загружены в нее.
+- C:\\ProgramData\\Autodesk\\ApplicationPlugins - эту папку можно использовать для надстроек, которые предназначены для нескольких программ или версий.
+- C:\\Program Files\\Autodesk\\Revit \[версия\]\\AddIns - эта папка используется для внутренних надстроек, но некоторые более ранние версии надстроек могут быть загружены в нее.
 
 После этого запустите Revit.
 
 Может появиться окно, запрашивающее разрешение на загрузку внешнего приложения.
 
--  Если вы уверены в данной надстройке/плагине, то выберите «Всегда загружать» и надстройка загрузится для использования в Revit.
-
--  Если вы не уверены или загружать настройку/плагин не нужно, то выберите «Не загружать».
+- Если вы уверены в данной надстройке/плагине, то выберите «Всегда загружать» и надстройка загрузится для использования в Revit.
+- Если вы не уверены или загружать настройку/плагин не нужно, то выберите «Не загружать».
 
 ## Данные в файле повреждены и должны быть восстановлены вручную
 
 При открытии модели появляется сообщение.
 
-<image src="./rasprostranennye-oshibki-v-revit-81.jpeg" crop="0,0,100,100" scale="467px" width="974px" height="676px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-81.jpeg){width=974px height=676px scale=467px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Данные в файле "....." повреждены и должны быть восстановлены вручную.
-
+  Данные в файле "....." повреждены и должны быть восстановлены вручную.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Data in file "….." is corrupt and needs to be manually recovered.
-
+  Data in file "….." is corrupt and needs to be manually recovered.
 </note>
 
 **Причины**
@@ -1800,22 +1609,18 @@ Data in file "….." is corrupt and needs to be manually recovered.
 
 При закрытии файла постоянно появляется предупреждение и Revit закрывается.
 
-<image src="./rasprostranennye-oshibki-v-revit-83.jpeg" crop="0,0,100,100" scale="430px" width="979px" height="662px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-83.jpeg){width=979px height=662px scale=430px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Программа "Autodesk Revit" не работает. Возникшая проблема привела к прекращению работы программы. Windows закроет эту программу, а если есть известный способ устранения проблемы, уведомит вас об этом.
-
+  Программа "Autodesk Revit" не работает. Возникшая проблема привела к прекращению работы программы. Windows закроет эту программу, а если есть известный способ устранения проблемы, уведомит вас об этом.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Autodesk Revit has stopped working. A problem caused the program to stop working correctly. Windows will close the program and notify you if a solution is available.
-
+  Autodesk Revit has stopped working. A problem caused the program to stop working correctly. Windows will close the program and notify you if a solution is available.
 </note>
 
 **Причины**
@@ -1866,22 +1671,18 @@ Autodesk Revit has stopped working. A problem caused the program to stop working
 
 Файл не открывается, появляется предупреждение и Revit аварийно закрывается.
 
-<image src="./rasprostranennye-oshibki-v-revit-86.jpeg" crop="0,0,100,100" scale="471px" width="969px" height="673px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-86.jpeg){width=969px height=673px scale=471px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Не удалось регенерировать проект "" с последним сочетанием изменений. Вернитесь к предыдущей версии проекта или обратитесь в службу технической поддержки.
-
+  Не удалось регенерировать проект "" с последним сочетанием изменений. Вернитесь к предыдущей версии проекта или обратитесь в службу технической поддержки.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Project "" failed to regenerate with the latest combiation of changes. Please revert to a previous version of the project or contact your service provider for assistance.
-
+  Project "" failed to regenerate with the latest combiation of changes. Please revert to a previous version of the project or contact your service provider for assistance.
 </note>
 
 **Причины**
@@ -1900,97 +1701,79 @@ Project "" failed to regenerate with the latest combiation of changes. Please re
 
 После открытия файла появится диалоговое окно ошибки: «Один или несколько требуемых внутренних параметров отсутствуют в модели. Какое действие необходимо выбрать?». Выберите «Исправить и открыть» или «Исправить, синхронизировать и открыть».
 
-<image src="./rasprostranennye-oshibki-v-revit-89.jpeg" crop="0,0,100,100" scale="493px" width="1038px" height="731px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-89.jpeg){width=1038px height=731px scale=493px}
 
 После появится окно результата операции. Если операция прошла успешно, Revit добавит необходимые внутренние параметры.
 
-<image src="./rasprostranennye-oshibki-v-revit-90.jpeg" crop="0,0,100,100" scale="480px" width="1038px" height="709px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-90.jpeg){width=1038px height=709px scale=480px}
 
 Проверьте модель на наличие изменений, связанных с исправлением параметров:
 
--  Проверьте содержимое таблицы ключевых пометок.
-
--  Проверьте листы на наличие пустых ключевых пометок.
-
--  Проверьте листы на предмет правильной нумерации изменений в ведомостях изменений и марки изменений.
-
--  Проверьте листы на наличие пустых марок изменений.
+- Проверьте содержимое таблицы ключевых пометок.
+- Проверьте листы на наличие пустых ключевых пометок.
+- Проверьте листы на предмет правильной нумерации изменений в ведомостях изменений и марки изменений.
+- Проверьте листы на наличие пустых марок изменений.
 
 Если обнаружите, что какие-то параметры отсутствуют, то:
 
--  Не закрывайте вашу модель Revit (которую открыли с проверкой)
-
--  В том же сеансе Revit откройте более раннюю версию модели
-
--  В вашей модели используйте инструмент «Копировать стандарты проекта» для копирования параметров из резервной копии в ваше модель.
+- Не закрывайте вашу модель Revit (которую открыли с проверкой)
+- В том же сеансе Revit откройте более раннюю версию модели
+- В вашей модели используйте инструмент «Копировать стандарты проекта» для копирования параметров из резервной копии в ваше модель.
 
 ## Семейство повреждено или непригодно к использованию
 
 При работе с семействами или при открытии файла возникают ошибки.
 
-<image src="./rasprostranennye-oshibki-v-revit-91.jpeg" crop="0,0,100,100" scale="628px" width="1038px" height="468px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-91.jpeg){width=1038px height=468px scale=628px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Некоторые семейства непригодны к использованию. Загрузите семейства повторно или удалите их из модели.
-
+  Некоторые семейства непригодны к использованию. Загрузите семейства повторно или удалите их из модели.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Some families have become unusable. Reload the families, or delete them from the model.
-
+  Some families have become unusable. Reload the families, or delete them from the model.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-92.jpeg" crop="0,0,100,100" scale="633px" width="1038px" height="468px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-92.jpeg){width=1038px height=468px scale=633px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Семейство "...." повреждено, его редактирование невозможно. Выполните повторную загрузку семейства для исправления проекта.
-
+  Семейство "...." повреждено, его редактирование невозможно. Выполните повторную загрузку семейства для исправления проекта.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Family "..." is corrupt and cannot be updated. Please reload the family to repair the project.
-
+  Family "..." is corrupt and cannot be updated. Please reload the family to repair the project.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-93.jpeg" crop="0,0,100,100" scale="390px" width="1038px" height="705px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-93.jpeg){width=1038px height=705px scale=390px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Семейство "...." повреждено, обновление его экземпляров невозможно. Выполните повторную загрузку семейства для исправления проекта.
-
+  Семейство "...." повреждено, обновление его экземпляров невозможно. Выполните повторную загрузку семейства для исправления проекта.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Family "..." is corrupt and cannot be edited.. Please reload the family to repair the project.
-
+  Family "..." is corrupt and cannot be edited.. Please reload the family to repair the project.
 </note>
 
 **Причины**
 
 При копировании семейств из проекта в проект, им добавляются числовые суффиксы 1, 2, 3 к имени самого семейства или типоразмера.
 
--  Такие семейства дубликаты попадают в трассировку трубопровода или воздуховода и это приводит к ошибке.
+- Такие семейства дубликаты попадают в трассировку трубопровода или воздуховода и это приводит к ошибке.
+- Семейства дубликаты, которые являются общими вложенными семействами, используются в множестве разных родительских семейств и это приводит к ошибке.
 
--  Семейства дубликаты, которые являются общими вложенными семействами, используются в множестве разных родительских семейств и это приводит к ошибке.
-
-<image src="./rasprostranennye-oshibki-v-revit-94.jpeg" crop="0,0,100,100" scale="250px" width="694px" height="1194px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-94.jpeg){width=694px height=1194px scale=250px}
 
 **Решение**
 
@@ -2038,22 +1821,18 @@ Family "..." is corrupt and cannot be edited.. Please reload the family to repai
 
 При открытии файла появляется ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-95.jpeg" crop="0,0,100,100" scale="455px" width="955px" height="772px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-95.jpeg){width=955px height=772px scale=455px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Протяженность геометрии в файле чертежа....dwg превышает 20 миль (33 км). Это может снизить надежность и вызвать некорректное отображение графики. нажмите кнопку "ОК" для продолжения процедуры или кнопку "Отмена" для прекращения импорта.
-
+  Протяженность геометрии в файле чертежа....dwg превышает 20 миль (33 км). Это может снизить надежность и вызвать некорректное отображение графики. нажмите кнопку "ОК" для продолжения процедуры или кнопку "Отмена" для прекращения импорта.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Geometry in the file....dwg has extents greater than 20 miles (33km). This may reduce reliability and result in undesirable graphic behavior. Click OK to continue, Cancel to exit import.
-
+  Geometry in the file....dwg has extents greater than 20 miles (33km). This may reduce reliability and result in undesirable graphic behavior. Click OK to continue, Cancel to exit import.
 </note>
 
 **Причины**
@@ -2090,58 +1869,46 @@ Geometry in the file....dwg has extents greater than 20 miles (33km). This may r
 
 Проект не открывается. При открытии появляется ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-96.jpeg" crop="0,0,100,100" scale="430px" width="976px" height="764px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-96.jpeg){width=976px height=764px scale=430px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Данная операция не может быть завершена. Повторите попытку.
-
+  Данная операция не может быть завершена. Повторите попытку.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-This operation could not be completed. Please try again.
-
+  This operation could not be completed. Please try again.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-97.jpeg" crop="0,0,100,100" scale="439px" width="966px" height="761px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-97.jpeg){width=966px height=761px scale=439px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-С момента открытия данного файла изменения в модели из хранилища....rvt сохранены другими пользователями.
-
+  С момента открытия данного файла изменения в модели из хранилища....rvt сохранены другими пользователями.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Since the file was opened, changes in the model from the storage \<...>.rvt have been saved by other users.
-
+  Since the file was opened, changes in the model from the storage \<...>.rvt have been saved by other users.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-98.jpeg" crop="0,0,100,100" scale="502px" width="974px" height="445px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-98.jpeg){width=974px height=445px scale=502px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Произошла неизвестная ошибка при обращении к....rvt".
-
+  Произошла неизвестная ошибка при обращении к....rvt".
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-An unknow error occurred while accesing....rvt".
-
+  An unknow error occurred while accesing....rvt".
 </note>
 
 **Причины**
@@ -2156,13 +1923,10 @@ An unknow error occurred while accesing....rvt".
 
 **Решение**
 
--  Повторите процедуру открытия файла или синхронизации через некоторое время.
-
--  Если на сервере проблем нет, а файл не открывается с проверкой достаточно долгое время или не синхронизируется, то проблема в повреждении файла хранилища, приступите к вариантам решения, предложенным ниже.
-
--  При невозможности открыть файл - вариант решения 1.
-
--  При невозможности синхронизации варианты решения 2-6.
+- Повторите процедуру открытия файла или синхронизации через некоторое время.
+- Если на сервере проблем нет, а файл не открывается с проверкой достаточно долгое время или не синхронизируется, то проблема в повреждении файла хранилища, приступите к вариантам решения, предложенным ниже.
+- При невозможности открыть файл - вариант решения 1.
+- При невозможности синхронизации варианты решения 2-6.
 
 **Вариант 1 (При невозможности открыть файл)**
 
@@ -2259,17 +2023,13 @@ An unknow error occurred while accesing....rvt".
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Файл... изменен с применением стороннего средства обновления..., которое на данный момент не установлено. В случае продолжения редактирования файла не будут правильно обновлены данные, работа с которыми выполняется с помощью средства обновления.... В результате этого последующее открытие файла при наличии установленного средства обновления... может привести к неполадкам.
-
+  Файл... изменен с применением стороннего средства обновления..., которое на данный момент не установлено. В случае продолжения редактирования файла не будут правильно обновлены данные, работа с которыми выполняется с помощью средства обновления.... В результате этого последующее открытие файла при наличии установленного средства обновления... может привести к неполадкам.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-The file... was modified by the third-party updater... which is not currently installed. If you continue to edit the file, data maintained by... will not be updated properly. This, may create problems when... is later opened when... is present.
-
+  The file... was modified by the third-party updater... which is not currently installed. If you continue to edit the file, data maintained by... will not be updated properly. This, may create problems when... is later opened when... is present.
 </note>
 
 **Причины**
@@ -2288,22 +2048,18 @@ The file... was modified by the third-party updater... which is not currently in
 
 Файл не открывается, появляется предупреждение и Revit аварийно закрывается.
 
-<image src="./rasprostranennye-oshibki-v-revit-101.jpeg" crop="0,0,100,100" scale="526px" width="982px" height="668px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-101.jpeg){width=982px height=668px scale=526px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Ошибка операции. Невозможно завершить операцию из-за неизвестной ошибки. Если ошибка повторится, обратитесь в службу поддержки клиентов.
-
+  Ошибка операции. Невозможно завершить операцию из-за неизвестной ошибки. Если ошибка повторится, обратитесь в службу поддержки клиентов.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Operation Error An unknown error occurred and the operation could not be completed. If this error recurs, please contact customer support.
-
+  Operation Error An unknown error occurred and the operation could not be completed. If this error recurs, please contact customer support.
 </note>
 
 **Причины**
@@ -2353,45 +2109,35 @@ Operation Error An unknown error occurred and the operation could not be complet
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Не удалось найти этот элемент. Его больше нет в "...". Проверьте расположение этого элемента и повторите попытку.
-
+  Не удалось найти этот элемент. Его больше нет в "...". Проверьте расположение этого элемента и повторите попытку.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-106.jpeg" crop="0,0,100,100" scale="496px" width="958px" height="441px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-106.jpeg){width=958px height=441px scale=496px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Значение поля полное имя файла не может превышать 255 символов.
-
+  Значение поля полное имя файла не может превышать 255 символов.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-The full file name cannot be longer than 255 characters.
-
+  The full file name cannot be longer than 255 characters.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-107.jpeg" crop="0,0,100,100" scale="489px" width="960px" height="434px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-107.jpeg){width=960px height=434px scale=489px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-файл без имени содержит недопустимый путь.
-
+  файл без имени содержит недопустимый путь.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-an unnamed file contains an incorrect path.
-
+  an unnamed file contains an incorrect path.
 </note>
 
 **Причины**
@@ -2438,7 +2184,7 @@ an unnamed file contains an incorrect path.
 
 Если ошибка повторяется при дальнейшей работе в модели, проверьте модель на наличие связей RVT и DWG, о которых описано в причинах данной проблемы.
 
--  При наличии связей DWG или RVT с локальных дисков:
+- При наличии связей DWG или RVT с локальных дисков:
 
 Удалите проблемную связь.
 
@@ -2448,7 +2194,7 @@ an unnamed file contains an incorrect path.
 
 Если после устранения проблем со связями ошибка повторяется, перезапустите Revit.
 
--  При наличии связей DWG или RVT с длиной пути, превышающей 255 символов:
+- При наличии связей DWG или RVT с длиной пути, превышающей 255 символов:
 
 Удалите проблемную связь.
 
@@ -2458,7 +2204,7 @@ an unnamed file contains an incorrect path.
 
 Если после устранения проблем со связями ошибка повторяется, перезапустите Revit.
 
--  Связи RVT с Revit Server с длиной пути, превышающие 138 символов:
+- Связи RVT с Revit Server с длиной пути, превышающие 138 символов:
 
 Удалите проблемную связь.
 
@@ -2466,7 +2212,7 @@ an unnamed file contains an incorrect path.
 
 Если после устранения проблем со связями ошибка повторяется, перезапустите Revit.
 
--  Связи RVT, в которых, имеются проблемные связи:
+- Связи RVT, в которых, имеются проблемные связи:
 
 Исправьте проблему в файле связи RVT по предложенным решениям выше.
 
@@ -2474,7 +2220,7 @@ an unnamed file contains an incorrect path.
 
 **Комментарии**
 
--  Данная ошибка запоминается самим Revit и может повторяться в разных проектах, если они были открыты в одном сеансе Revit, поэтому важно при появлении данной ошибки и после устранения потенциальных проблем, описанных выше, перезапускать программу.
+- Данная ошибка запоминается самим Revit и может повторяться в разных проектах, если они были открыты в одном сеансе Revit, поэтому важно при появлении данной ошибки и после устранения потенциальных проблем, описанных выше, перезапускать программу.
 
 Очистка папки «%Temp%» также помогает решить эту проблему, поэтому важно проводить чистку папки «%Temp%» регулярно. Для очистки папки «%Temp%»:
 
@@ -2490,22 +2236,18 @@ C:\\USERS\\Имя пользователя\\AppData\\Local\\Temp
 
 При синхронизации появляется ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-108.jpeg" crop="0,0,100,100" scale="467px" width="1038px" height="460px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-108.jpeg){width=1038px height=460px scale=467px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-...........rvt содержит неправильную схему.
-
+  ...........rvt содержит неправильную схему.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-...........rvt contains an incorrect schema.
-
+  ...........rvt contains an incorrect schema.
 </note>
 
 **Причины**
@@ -2566,40 +2308,32 @@ C:\\USERS\\Имя пользователя\\AppData\\Local\\Temp
 
 Проект не синхронизируется с файлом хранилища. При синхронизации появляется ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-109.jpeg" crop="0,0,100,100" scale="458px" width="1038px" height="703px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-109.jpeg){width=1038px height=703px scale=458px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Невозможно сохранение локального файла. Проект не может быть сохранен, так как используемое имя пользователя не совпадает с именем создателя локального файла. Для получения дополнительной информации откройте диалоговое окно "Рабочие наборы".
-
+  Невозможно сохранение локального файла. Проект не может быть сохранен, так как используемое имя пользователя не совпадает с именем создателя локального файла. Для получения дополнительной информации откройте диалоговое окно "Рабочие наборы".
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-The project cannot be saved because the user name you are using is not the same as the user who created the local file. Open the Worksets dialog for more information".
-
+  The project cannot be saved because the user name you are using is not the same as the user who created the local file. Open the Worksets dialog for more information".
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-110.jpeg" crop="0,0,100,100" scale="462px" width="1038px" height="703px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-110.jpeg){width=1038px height=703px scale=462px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Локальный файл был сохранен пользователем '...', а текущий пользователь - '...'. Измените имя пользователя или прекратите работу с файлом".
-
+  Локальный файл был сохранен пользователем '...', а текущий пользователь - '...'. Измените имя пользователя или прекратите работу с файлом".
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-The local file has been saved by user '...', current user is '...'. Please change your user name or stop working on this file".
-
+  The local file has been saved by user '...', current user is '...'. Please change your user name or stop working on this file".
 </note>
 
 **Причины**
@@ -2628,22 +2362,18 @@ The local file has been saved by user '...', current user is '...'. Please chang
 
 Проект не синхронизируется с файлом хранилища. Появляется ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-112.jpeg" crop="0,0,100,100" scale="489px" width="1038px" height="703px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-112.jpeg){width=1038px height=703px scale=489px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Revit не может выполнить освобождение измененных элементов, поскольку проект не сохранен.
-
+  Revit не может выполнить освобождение измененных элементов, поскольку проект не сохранен.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Revit cannot release changed items because the project has not been saved.
-
+  Revit cannot release changed items because the project has not been saved.
 </note>
 
 **Причина**
@@ -2670,13 +2400,10 @@ Revit cannot release changed items because the project has not been saved.
 
 Очистите от лишних файлов папки:
 
--  Загрузки
-
--  Рабочий стол
-
--  Корзину
-
--  Мои документы
+- Загрузки
+- Рабочий стол
+- Корзину
+- Мои документы
 
 Удалите все файлы журналов (кроме сегодняшней даты) из каталога: %localappdata%\\Autodesk\\Revit\\Autodesk Revit \<version>\\Journals
 
@@ -2690,9 +2417,8 @@ Revit cannot release changed items because the project has not been saved.
 
 Очистить папку Temp, для этого:
 
--  Скопируйте в проводник «%Temp%» (либо С:\\USERS\\Имя пользователя\\AppData\\Local\\Temp)
-
--  Выберите все файлы внутри папки, удалите через комбинацию клавиш Shift+Delete (безвозвратное удаление, минуя корзину). Для некоторых файлов в появляющихся ошибках нажмите «Пропустить»
+- Скопируйте в проводник «%Temp%» (либо С:\\USERS\\Имя пользователя\\AppData\\Local\\Temp)
+- Выберите все файлы внутри папки, удалите через комбинацию клавиш Shift+Delete (безвозвратное удаление, минуя корзину). Для некоторых файлов в появляющихся ошибках нажмите «Пропустить»
 
 Запустите программу Revit, откройте файл, при открытии закройте ненужные рабочие наборы.
 
@@ -2702,58 +2428,46 @@ Revit cannot release changed items because the project has not been saved.
 
 При синхронизации появляется предупреждение.
 
-<image src="./rasprostranennye-oshibki-v-revit-113.jpeg" crop="0,0,100,100" scale="485px" width="1038px" height="703px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-113.jpeg){width=1038px height=703px scale=485px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Revit не может выполнить освобождение измененных элементов, поскольку проект не сохранен.
-
+  Revit не может выполнить освобождение измененных элементов, поскольку проект не сохранен.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Revit cannot release changed items because the project has not been saved.
-
+  Revit cannot release changed items because the project has not been saved.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-114.jpeg" crop="0,0,100,100" scale="469px" width="1038px" height="703px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-114.jpeg){width=1038px height=703px scale=469px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Revit не удается устранить различия между локальным файлом и моделью из хранилища. Дополнительную информацию об ошибках можно найти в диалоговом окне "Рабочие наборы.
-
+  Revit не удается устранить различия между локальным файлом и моделью из хранилища. Дополнительную информацию об ошибках можно найти в диалоговом окне "Рабочие наборы.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Revit cannot reconcile the differences between your local file and the central model. You can find more information about the errors in the Worksets dialog.
-
+  Revit cannot reconcile the differences between your local file and the central model. You can find more information about the errors in the Worksets dialog.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-115.jpeg" crop="0,0,100,100" scale="453px" width="1038px" height="813px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-115.jpeg){width=1038px height=813px scale=453px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Локальный файл несовместим с моделью из файла хранилища.
-
+  Локальный файл несовместим с моделью из файла хранилища.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Your local file is not compatible with the central model.
-
+  Your local file is not compatible with the central model.
 </note>
 
 **Причины**
@@ -2826,40 +2540,32 @@ Your local file is not compatible with the central model.
 
 При синхронизации появляется ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-116.jpeg" crop="0,0,100,100" scale="429px" width="1038px" height="813px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-116.jpeg){width=1038px height=813px scale=429px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Невозможно выполнить команду сохранить этот документ,поскольку в данный момент выполняется расчёт Системные тома.
-
+  Невозможно выполнить команду сохранить этот документ,поскольку в данный момент выполняется расчёт Системные тома.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Cannot synchronize with central because System Volumes are calculating.
-
+  Cannot synchronize with central because System Volumes are calculating.
 </note>
 
-<image src="./rasprostranennye-oshibki-v-revit-117.jpeg" crop="0,0,100,100" scale="438px" width="1038px" height="813px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-117.jpeg){width=1038px height=813px scale=438px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Невозможно выполнить команду сохранить этот документ, поскольку в данный момент выполняется расчёт Цветовая заливка.
-
+  Невозможно выполнить команду сохранить этот документ, поскольку в данный момент выполняется расчёт Цветовая заливка.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-The command to save this document cannot be used because Color Fill is currently highly calculated.
-
+  The command to save this document cannot be used because Color Fill is currently highly calculated.
 </note>
 
 ![](./rasprostranennye-oshibki-v-revit-118.jpeg){width=469px height=313px}
@@ -2867,17 +2573,13 @@ The command to save this document cannot be used because Color Fill is currently
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Не удалось выполнить расчет Цветовая заливка. Сбой при выполнении запрошенных расчетов цветовая заливка. Нажмите кнопку "Перезапустить" или "Отчет об ошибке", если команда доступна.
-
+  Не удалось выполнить расчет Цветовая заливка. Сбой при выполнении запрошенных расчетов цветовая заливка. Нажмите кнопку "Перезапустить" или "Отчет об ошибке", если команда доступна.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Failed to perform Color Fill calculation. Failed to perform the requested color fill calculations. Click ""Restart"" or ""Report a bug"" if the command is available.
-
+  Failed to perform Color Fill calculation. Failed to perform the requested color fill calculations. Click ""Restart"" or ""Report a bug"" if the command is available.
 </note>
 
 **Причины**
@@ -2888,19 +2590,14 @@ Failed to perform Color Fill calculation. Failed to perform the requested color 
 
 Необходимо завершить фоновые процессы Revit. Важно случайно не завершить основной процесс Revit.
 
--  Откройте Диспетчер задач (Ctrl+Shift+Esc).
+- Откройте Диспетчер задач (Ctrl+Shift+Esc).
+- Нажмите «Подробнее» \[1\].
+- Перейдите на вкладку «Подробности» \[2\].
+- Найдите в раскрывшимся окне процесс «Revitworker.exe» \[3\].
+- Выберите его и снимите задачу \[4\].
+- Повторите действие с моделью (например, синхронизируйтсь).
 
--  Нажмите «Подробнее» \[1\].
-
--  Перейдите на вкладку «Подробности» \[2\].
-
--  Найдите в раскрывшимся окне процесс «Revitworker.exe» \[3\].
-
--  Выберите его и снимите задачу \[4\].
-
--  Повторите действие с моделью (например, синхронизируйтсь).
-
-<image src="./rasprostranennye-oshibki-v-revit-119.jpeg" crop="0,0,100,100" scale="400px" width="577px" height="577px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-119.jpeg){width=577px height=577px scale=400px}
 
 ![](./rasprostranennye-oshibki-v-revit-120.jpeg){width=1038px height=482px}
 
@@ -2919,17 +2616,13 @@ Failed to perform Color Fill calculation. Failed to perform the requested color 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Изменено положение "текущее" в файле...... rvt. Выберите одну из следующих" возможностей.
-
+  Изменено положение "текущее" в файле...... rvt. Выберите одну из следующих" возможностей.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Changed position "current" in file "......rvt". Choose one of the following options.
-
+  Changed position "current" in file "......rvt". Choose one of the following options.
 </note>
 
 **Причины**
@@ -2940,15 +2633,15 @@ Changed position "current" in file "......rvt". Choose one of the following opti
 
 Подробный разбор предложенных вариантов:
 
--  Сохранить
+- Сохранить
 
 Выполняется сохранение нового местоположения главной модели в связанной модели.
 
--  Не сохранять
+- Не сохранять
 
 Внесенные изменения в местоположение отменяются, а связанная модель при следующем обновлении или открытии возвращается к предыдущему сохраненному местоположению.
 
--  Отменить совместный доступ к размещению
+- Отменить совместный доступ к размещению
 
 Связанная модель остается в своем текущем местоположении. Общие координаты между связанной моделью и главной моделью отключаются. Для параметра «Общая площадка» в связанной модели задается значение «\<Не общедоступное>».
 
@@ -2964,22 +2657,18 @@ Changed position "current" in file "......rvt". Choose one of the following opti
 
 Проект не синхронизируется с файлом хранилища. Появляется ошибка.
 
-<image src="./rasprostranennye-oshibki-v-revit-124.jpeg" crop="0,0,100,100" scale="479px" width="1038px" height="813px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-124.jpeg){width=1038px height=813px scale=479px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-В локальном файле обнаружены экземпляры семейства с поврежденными идентификаторами элементов!
-
+  В локальном файле обнаружены экземпляры семейства с поврежденными идентификаторами элементов!
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-Family instances with corrupted element IDs found in local file!
-
+  Family instances with corrupted element IDs found in local file!
 </note>
 
 **Решение**
@@ -3020,7 +2709,7 @@ Family instances with corrupted element IDs found in local file!
 
 При проведении синхронизации появляется предупреждение об ошибке.
 
-<image src="./rasprostranennye-oshibki-v-revit-125.jpeg" crop="0,0,100,100" scale="645px" width="1038px" height="464px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-125.jpeg){width=1038px height=464px scale=645px}
 
 **Причины**
 
@@ -3052,22 +2741,18 @@ Family instances with corrupted element IDs found in local file!
 
 Ошибка при синхронизации.
 
-<image src="./rasprostranennye-oshibki-v-revit-130.jpeg" crop="0,0,100,100" scale="608px" width="1038px" height="464px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-130.jpeg){width=1038px height=464px scale=608px}
 
 **Текст ошибки (rus)**
 
 <note type="quote">
-
-Не удалось завершить операцию. Ссылки имеют одинаковые имена.
-
+  Не удалось завершить операцию. Ссылки имеют одинаковые имена.
 </note>
 
 **Текст ошибки (eng)**
 
 <note type="quote">
-
-This operation could not be completed. Links have the same name.
-
+  This operation could not be completed. Links have the same name.
 </note>
 
 **Причины**
@@ -3080,7 +2765,7 @@ This operation could not be completed. Links have the same name.
 
 Разверните окно ошибки с помощью функции «Развернуть» в окне ошибки.
 
-<image src="./rasprostranennye-oshibki-v-revit-131.jpeg" crop="0,0,100,100" scale="516px" width="680px" height="303px" float="center"/>
+![](./rasprostranennye-oshibki-v-revit-131.jpeg){width=680px height=303px scale=516px}
 
 Посмотрите наименование проблемной связи DWG или RVT.
 
