@@ -1,6 +1,12 @@
 ---
 title: Трубы и изоляция
-order: 16
+order: 0.2
+aliases:
+  - path: BIM-instrykcii/plaginy/garda_vis/ovik-vk/vozdukhovody-i-izolyaciya-2
+    moved: "2026-11-05T09:26:56Z"
+  - path: >-
+      BIM-instrykcii/plaginy/garda_vis/specifikacii-ov-vk/vozdukhovody-i-izolyaciya/vozdukhovody-i-izolyaciya-2
+    moved: "2026-11-05T09:27:01Z"
 ---
 
 Плагин обрабатывает трубопроводы и изоляцию трубопроводов:  рассчитывает  количество, заполняет параметры **«ADSK_Наименование» и «ADSK_Количество».**

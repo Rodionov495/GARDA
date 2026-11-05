@@ -1,6 +1,9 @@
 ---
 title: Заполнение параметров
-order: 17
+order: 2.5
+aliases:
+  - path: BIM-instrykcii/plaginy/garda_vis/ovik-vk/zapolnenie-parametrov
+    moved: "2026-11-05T09:27:07Z"
 ---
 
 Плагин предназначен для автоматического заполнения параметров **G_СО_Имя системы**, **G_СО_Группирование** и **ADSK_Количество** (для штучных элементов) у инженерных систем.
@@ -9,7 +12,7 @@ order: 17
 
 Плагин расположен на вкладке «**GARDA_ВИС»**, панели «**Спецификации ОВ\\ВК»**.
 
-![](./zapolnenie-parametrov.webp){width=703px height=155px scale=423px}
+![](./_index.webp){width=703px height=155px scale=423px}
 
 ## 2\. Как пользоваться
 
@@ -17,7 +20,7 @@ order: 17
 
 Запустите плагин. В открывшемся окне настройте параметры обработки:
 
-![](./zapolnenie-parametrov-2.webp){width=842px height=877px scale=411px}
+![](./_index-2.webp){width=842px height=877px scale=411px}
 
 1. \- проектируемый раздел;
 2. \- обработать все элементы в проекте или только элементы на активном виде;
@@ -29,7 +32,7 @@ order: 17
 
 После обработки плагина будет выведен отчет:
 
-![](./zapolnenie-parametrov-3.webp){width=1140px height=1465px scale=423px}
+![](./_index-3.webp){width=1140px height=1465px scale=423px}
 
 Здесь выводится информация, какие элементы обработаны и какие ошибки при обработке возникают.
 
