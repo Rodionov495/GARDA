@@ -1,0 +1,24 @@
+---
+title: Глава 6 - загрузка в Сигнал
+order: 5
+---
+
+
+
+![](./glava-6-zagruzka-v-signal.webp){width=1907px height=903px}
+
+![](./glava-6-zagruzka-v-signal-2.webp){width=1919px height=778px}
+
+![](./glava-6-zagruzka-v-signal-3.webp){width=1917px height=822px}
+
+![](./glava-6-zagruzka-v-signal-4.webp){width=1918px height=792px}
+
+![](./glava-6-zagruzka-v-signal-5.webp){width=1914px height=952px}
+
+![](./glava-6-zagruzka-v-signal-6.webp){width=1915px height=925px}
+
+![](./glava-6-zagruzka-v-signal-7.webp){width=1909px height=890px}
+
+![](./glava-6-zagruzka-v-signal-8.webp){width=1919px height=944px}
+
+![](./glava-6-zagruzka-v-signal-9.webp){width=1918px height=658px}
