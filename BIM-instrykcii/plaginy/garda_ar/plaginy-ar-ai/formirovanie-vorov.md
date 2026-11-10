@@ -7,4 +7,4 @@ properties:
       - Вакс Р.
 ---
 
-![](./formirovanie-vorov.webp){width=611px height=142px}
+<comment id="sFLY1">![](./formirovanie-vorov.webp){width=611px height=142px}</comment>

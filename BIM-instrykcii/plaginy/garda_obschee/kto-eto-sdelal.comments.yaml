@@ -1,0 +1,10 @@
+e7zsc:
+  comment:
+    dateTime: '2026-11-10T00:49:24.887Z'
+    content: >-
+      Данный плагин необходимо в НСК, только ньюанс если файл перезаписывается
+      создателем обьектов становится человек выполнивший эту операцию.
+    user:
+      mail: v.stalkovskiy@gardapro.ru
+      name: stalkovskiy
+      id: v.stalkovskiy@gardapro.ru

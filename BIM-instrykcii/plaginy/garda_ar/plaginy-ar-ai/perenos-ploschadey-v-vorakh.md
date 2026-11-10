@@ -7,4 +7,4 @@ properties:
       - Вакс Р.
 ---
 
-![](./perenos-ploschadey-v-vorakh.webp){width=611px height=142px}
+<comment id="XqLNB">![](./perenos-ploschadey-v-vorakh.webp){width=611px height=142px}</comment>
