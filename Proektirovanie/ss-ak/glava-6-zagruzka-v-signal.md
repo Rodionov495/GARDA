@@ -1,9 +1,7 @@
 ---
-title: Глава 6 - загрузка в Сигнал
+title: Глава 6 - загрузка и согласование в Signal (по листам)
 order: 5
 ---
-
-
 
 ![](./glava-6-zagruzka-v-signal.webp){width=1907px height=903px}
 
