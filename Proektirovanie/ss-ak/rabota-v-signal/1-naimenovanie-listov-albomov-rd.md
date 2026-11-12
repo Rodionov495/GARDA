@@ -1,6 +1,8 @@
 ---
 title: 01. Назначения папок РД
-order: 0.5
+order: 0.7
+aliases:
+  - { path: Proektirovanie/1-naimenovanie-listov-albomov-rd, moved: "2026-11-12T16:05:43Z" }
 ---
 
 Выпущенные тома РД тут:
