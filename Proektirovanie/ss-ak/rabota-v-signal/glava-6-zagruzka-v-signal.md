@@ -1,6 +1,6 @@
 ---
 title: 2. Загрузка и согласование в Signal (по листам)
-order: 1
+order: 0.3
 properties:
   - id: CDhLD
     value:
