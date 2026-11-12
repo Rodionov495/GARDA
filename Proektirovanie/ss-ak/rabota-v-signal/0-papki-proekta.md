@@ -24,3 +24,9 @@ order: 0.3
 Также в разделе **«03_Проект»** хранятся запросы данных у ГИПа и [гугл-таблица RFI](./../glava-5-zaprosy-dannykh.md)
 
 ![](./0-papki-proekta-5.webp){width=462px height=580px scale=342px}
+
+
+
+Замечания экспертизы или заказчика также хранятся в разделе **«03_Проект»**
+
+![](./0-papki-proekta-6.webp){width=455px height=542px scale=342px}
