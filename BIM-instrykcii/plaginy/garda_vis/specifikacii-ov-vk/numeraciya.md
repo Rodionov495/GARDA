@@ -21,7 +21,7 @@ properties:
 
 Плагин расположен на вкладке **GARDA_ВИС**, панели **Спецификации ОВ\\ВК**.
 
-![](./numeraciya.jpeg){width=497px height=95px}
+![](./numeraciya.webp){width=703px height=153px scale=468px}
 
 ## Как пользоваться
 
