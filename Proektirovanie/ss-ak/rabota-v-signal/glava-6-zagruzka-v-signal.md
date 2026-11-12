@@ -1,5 +1,5 @@
 ---
-title: 2. Загрузка и согласование в Signal (по листам)
+title: 03. Загрузка и согласование в Signal (по листам)
 order: 1.5
 properties:
   - id: CDhLD
