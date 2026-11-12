@@ -1,12 +1,13 @@
 ---
 title: 2. Загрузка и согласование в Signal (по листам)
-order: 0.3
+order: 1.5
 properties:
   - id: CDhLD
     value:
       - Мрыкина Е.
 aliases:
   - { path: Proektirovanie/ss-ak/glava-6-zagruzka-v-signal, moved: "2026-11-12T14:58:33Z" }
+  - { path: Proektirovanie/glava-6-zagruzka-v-signal, moved: "2026-11-12T15:12:46Z" }
 ---
 
 ![](./glava-6-zagruzka-v-signal.webp){width=1907px height=903px}
