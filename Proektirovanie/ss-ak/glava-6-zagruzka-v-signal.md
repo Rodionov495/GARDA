@@ -1,6 +1,10 @@
 ---
 title: Глава 6 - загрузка и согласование в Signal (по листам)
 order: 5
+properties:
+  - id: CDhLD
+    value:
+      - Мрыкина Е.
 ---
 
 ![](./glava-6-zagruzka-v-signal.webp){width=1907px height=903px}
@@ -17,6 +21,10 @@ order: 5
 
 ![](./glava-6-zagruzka-v-signal-7.webp){width=1909px height=890px}
 
+Действия, со скриншотов ниже, выполяются по согласованию со мной или в мое отсутствие:
+
 ![](./glava-6-zagruzka-v-signal-8.webp){width=1919px height=944px}
+
+Результат правильно проделаных действий выглядит так:
 
 ![](./glava-6-zagruzka-v-signal-9.webp){width=1918px height=658px}
