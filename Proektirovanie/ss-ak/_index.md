@@ -3,4 +3,8 @@ title: СС.АК
 order: 1
 ---
 
-<view defs="hierarchy=none" display="List"/>
+База знаний для сотрудников отдела слаботочных систем и автоматизации московского департамента проектирования.
+
+
+
+<view defs="hierarchy=none" display="List" />
