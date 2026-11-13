@@ -7,6 +7,10 @@ aliases:
   - path: >-
       BIM-instrykcii/plaginy/garda_vis/specifikacii-ov-vk/vozdukhovody-i-izolyaciya/vozdukhovody-i-izolyaciya-2
     moved: "2026-11-05T09:27:01Z"
+properties:
+  - id: CDhLD
+    value:
+      - Аксенова М.
 ---
 
 Плагин обрабатывает трубопроводы и изоляцию трубопроводов:  рассчитывает  количество, заполняет параметры **«ADSK_Наименование» и «ADSK_Количество».**

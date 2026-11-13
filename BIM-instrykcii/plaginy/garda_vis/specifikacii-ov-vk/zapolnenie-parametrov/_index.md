@@ -4,6 +4,10 @@ order: 0.230001
 aliases:
   - path: BIM-instrykcii/plaginy/garda_vis/ovik-vk/zapolnenie-parametrov
     moved: "2026-11-05T09:27:07Z"
+properties:
+  - id: CDhLD
+    value:
+      - Аксенова М.
 ---
 
 Плагин предназначен для автоматического заполнения параметров **G_СО_Имя системы**, **G_СО_Группирование** и **ADSK_Количество** (для штучных элементов) у инженерных систем.
