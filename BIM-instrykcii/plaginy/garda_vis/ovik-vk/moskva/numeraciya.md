@@ -1,9 +1,9 @@
 ---
 title: Нумерация
-order: 7
+order: 1
 aliases:
-  - path: BIM-instrykcii/plaginy/numeraciya
-    moved: "2026-10-06T14:17:56Z"
+  - { path: BIM-instrykcii/plaginy/numeraciya, moved: "2026-10-06T14:17:56Z" }
+  - { path: BIM-instrykcii/plaginy/garda_vis/ovik-vk/numeraciya, moved: "2026-11-16T09:15:44Z" }
 properties:
   - id: CDhLD
     value:

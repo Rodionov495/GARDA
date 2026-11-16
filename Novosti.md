@@ -29,7 +29,7 @@ order: 3
 
 14\.09.2026
 
-Опубликована новая инструкция «[Нумерация](./BIM-instrykcii/plaginy/garda_vis/ovik-vk/numeraciya.md)».
+Опубликована новая инструкция «[Нумерация](./BIM-instrykcii/plaginy/garda_vis/ovik-vk/moskva/numeraciya.md)».
 
 Плагин автоматически рассчитывает и заполняет параметр **«ADSK_Позиция»** по элементам открытой спецификации.
 

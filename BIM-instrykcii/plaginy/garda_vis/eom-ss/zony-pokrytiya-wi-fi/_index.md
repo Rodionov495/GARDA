@@ -30,7 +30,7 @@ properties:
 
 Плагин расположен на вкладке **GARDA_ВИС**, в панели **ЭОМ/СС/АК**.
 
-![](./zony-pokrytiya-wi-fi-2.webp){width=99px height=79px}
+![](./_index-2.webp){width=99px height=79px}
 
 ### **Как пользоваться**
 
@@ -62,7 +62,7 @@ properties:
 
 Результат появляется на плане:
 
-![](./zony-pokrytiya-wi-fi.webp){width=899px height=713px}
+![](./_index.webp){width=899px height=713px}
 
 ### **Чтение результатов**
 

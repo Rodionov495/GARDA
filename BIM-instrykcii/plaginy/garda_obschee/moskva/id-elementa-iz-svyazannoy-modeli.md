@@ -1,13 +1,13 @@
 ---
 title: ID элемента из связанной модели
-order: 8
+order: 0.04
 properties:
   - id: CDhLD
     value:
       - Луцко Д.
 aliases:
-  - path: BIM-instrykcii/plaginy/id-elementa-iz-svyazannoy-modeli
-    moved: "2026-10-06T12:46:45Z"
+  - { path: BIM-instrykcii/plaginy/id-elementa-iz-svyazannoy-modeli, moved: "2026-10-06T12:46:45Z" }
+  - { path: BIM-instrykcii/plaginy/garda_obschee/id-elementa-iz-svyazannoy-modeli, moved: "2026-11-16T07:58:08Z" }
 ---
 
 Плагин служит для получения ID элемента из связанной модели.

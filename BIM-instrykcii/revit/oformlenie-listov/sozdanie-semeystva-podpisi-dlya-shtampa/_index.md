@@ -2,13 +2,9 @@
 title: Семейство подписи
 order: 1.2
 aliases:
-  - path: >-
-      Proektirovanie/sozdanie-semeystva-podpisi-dlya-shtampa/sozdanie-semeystva-podpisi-dlya-shtampa
-    moved: "2026-08-18T15:14:05Z"
-  - path: BIM-instrykcii/sozdanie-semeystva-podpisi-dlya-shtampa
-    moved: "2026-09-08T16:08:11Z"
-  - path: BIM-instrykcii/revit/sozdanie-semeystva-podpisi-dlya-shtampa
-    moved: "2026-10-06T11:16:34Z"
+  - { path: Proektirovanie/sozdanie-semeystva-podpisi-dlya-shtampa/sozdanie-semeystva-podpisi-dlya-shtampa, moved: "2026-08-18T15:14:05Z" }
+  - { path: BIM-instrykcii/sozdanie-semeystva-podpisi-dlya-shtampa, moved: "2026-09-08T16:08:11Z" }
+  - { path: BIM-instrykcii/revit/sozdanie-semeystva-podpisi-dlya-shtampa, moved: "2026-10-06T11:16:34Z" }
 properties:
   - id: CDhLD
     value:
@@ -20,11 +16,9 @@ properties:
 
 
 <note type="info">
+  Все подписи после проверки хранятся по пути:
 
-Все подписи после проверки хранятся по пути:
-
-`C:\Nextcloud\Гарда - ТИМ – отдел\02_Семейства\00_Общие\00_Подписи`
-
+  `C:\Nextcloud\Гарда - ТИМ – отдел\02_Семейства\00_Общие\00_Подписи`
 </note>
 
 ## Создание семейства
@@ -42,32 +36,28 @@ properties:
 3\. Импортируйте файл-изображение подписи в файл шаблона
 
 <note type="lab">
-
-Вкладка «Вставить» -> «Импорт изображения» («Импорт PDF»)
-
+  Вкладка «Вставить» -> «Импорт изображения» («Импорт PDF»)
 </note>
 
-<image src="./_index.jpeg" crop="0,0,100,100" scale="137px" width="135px" height="76px" float="center"/>
+![](./_index.jpeg){width=135px height=76px scale=137px}
 
 
 
 4\. Отмасштабируйте изображение и разместите в области для расположения подписи:
 
-<image src="./_index-2.jpeg" crop="0,0,100,100" scale="611px" width="895px" height="233px" float="center"/>
+![](./_index-2.jpeg){width=895px height=233px scale=611px}
 
 
 
 5\. Обведите подпись инструментом «Сплайн»
 
 <note type="lab">
-
-Вкладка «Создание» -> «Линейная» -> «Сплайн».
-
+  Вкладка «Создание» -> «Линейная» -> «Сплайн».
 </note>
 
 Для сплайна выберите подкатегорию «Подпись»
 
-<image src="./_index-3.jpeg" crop="0,0,100,100" scale="636px" width="1270px" height="698px" float="center"/>
+![](./_index-3.jpeg){width=1270px height=698px scale=636px}
 
 
 
@@ -75,7 +65,7 @@ properties:
 
 
 
-<image src="./_index-4.jpeg" crop="0,0,100,100" scale="456px" width="734px" height="729px" float="center"/>
+![](./_index-4.jpeg){width=734px height=729px scale=456px}
 
 
 
@@ -83,7 +73,7 @@ properties:
 
 
 
-<image src="./sozdanie-semeystva-podpisi-dlya-shtampa.jpeg" crop="0,0,100,100" scale="650px" width="870px" height="430px" float="center"/>
+![](./sozdanie-semeystva-podpisi-dlya-shtampa.jpeg){width=870px height=430px scale=650px}
 
 
 
@@ -101,6 +91,9 @@ properties:
 
 `Подпись_<Фамилия>`
 
-11\. Перед использованием семейства необходимо направить его на согласование на почту Александру Родионову ([a.rodionov@gardapro.ru](mailto:a.rodionov@gardapro.ru))
+11\. Отправьте семейство на на почту руководителю BIM:
 
-### 
+- Для Московского офиса это Александр Родионов ([a.rodionov@gardapro.ru](mailto:a.rodionov@gardapro.ru))
+- Для Новосибирского офиса это Вадим Сталковский ([v.stalkovskiy@gardapro.ru](mailto:v.stalkovskiy@gardapro.ru))
+
+###

@@ -2,8 +2,8 @@
 order: 0.5
 title: Связи в рабочие наборы
 aliases:
-  - path: BIM-instrykcii/plaginy/svyazi-v-rabochie-nabory
-    moved: "2026-10-06T14:17:49Z"
+  - { path: BIM-instrykcii/plaginy/svyazi-v-rabochie-nabory, moved: "2026-10-06T14:17:49Z" }
+  - { path: BIM-instrykcii/plaginy/garda_obschee/svyazi-v-rabochie-nabory, moved: "2026-11-16T07:57:55Z" }
 properties:
   - id: CDhLD
     value:
