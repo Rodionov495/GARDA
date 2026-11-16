@@ -1,5 +1,5 @@
 ---
-title: Формирование ВОРов
+title: Формирование ВОР`ов
 order: 0.9
 properties:
   - id: CDhLD
