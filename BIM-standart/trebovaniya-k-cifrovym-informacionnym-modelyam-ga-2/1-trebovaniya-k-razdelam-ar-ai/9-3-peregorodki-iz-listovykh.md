@@ -93,9 +93,9 @@ order: 3
   <tr><td>Условное расположение</td><td>●</td><td>●</td><td></td><td></td><td></td></tr>
   <tr><td>Точное расположение</td><td></td><td></td><td>●</td><td>●</td><td></td></tr>
   <tr><td>Внешний образ/вид</td><td>●</td><td>●</td><td>●</td><td>●</td><td></td></tr>
-  <tr><td>Многослойная структура 4</td><td>●</td><td></td><td></td><td></td><td></td></tr>
-  <tr><td>Слои в виде отдельных стен4</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
-  <tr><td>Материалы2</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
+  <tr><td>Многослойная структура⁴</td><td>●</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>Слои в виде отдельных стен⁴</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
+  <tr><td>Материалы²</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
   <tr><td colspan="7">Уровень проработки атрибутивной информации</td></tr>
   <tr><td rowspan="5">Размеры</td><td>Длина</td><td></td><td>●</td><td>●</td><td>●</td><td>3000 мм</td></tr>
   <tr><td>Толщина/ADSK_Размер_Толщина</td><td></td><td>●</td><td>●</td><td>●</td><td>100 мм</td></tr>
@@ -104,7 +104,7 @@ order: 3
   <tr><td>Объем</td><td></td><td>●</td><td>●</td><td>●</td><td>0,9 м³</td></tr>
   <tr><td rowspan="3">Идентификация</td><td>Описание</td><td></td><td></td><td>●</td><td>●</td><td>Перегородка с двухслойными обшивками из влагостойкого гипсокартона на двойном КНАУФ-профиле.</td></tr>
   <tr>
-    <td>G_Состав конструкции4</td>
+    <td>G_Состав конструкции⁴</td>
     <td></td>
     <td>●</td>
     <td>●</td>
@@ -117,14 +117,14 @@ order: 3
       3\. Гипсокартон 2 слоя − 25 мм
     </td>
   </tr>
-  <tr><td>ADSK_Предел огнестойкости1</td><td></td><td>●</td><td>●</td><td>●</td><td>EI 60</td></tr>
+  <tr><td>ADSK_Предел огнестойкости¹</td><td></td><td>●</td><td>●</td><td>●</td><td>EI 60</td></tr>
   <tr><td>Маркировка</td><td>ADSK_Марка</td><td></td><td></td><td></td><td>●</td><td>П-12</td></tr>
-  <tr><td rowspan="2">Ресурсы</td><td>ADSK_Единица измерения1</td><td></td><td>●</td><td>●</td><td>●</td><td>м2</td></tr>
-  <tr><td>ADSK_Завод-изготовитель1</td><td></td><td></td><td></td><td>●</td><td>Knauf</td></tr>
+  <tr><td rowspan="2">Ресурсы</td><td>ADSK_Единица измерения¹</td><td></td><td>●</td><td>●</td><td>●</td><td>м²</td></tr>
+  <tr><td>ADSK_Завод-изготовитель¹</td><td></td><td></td><td></td><td>●</td><td>Knauf</td></tr>
   <tr><td rowspan="3">Положение</td><td>ADSK_Номер здания</td><td></td><td>●</td><td>●</td><td>●</td><td>Строение 1</td></tr>
   <tr><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>2</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>3</td></tr>
-  <tr><td>Прочее</td><td>ADSK_Комплект чертежей3</td><td></td><td></td><td></td><td>●</td><td>АР1</td></tr>
+  <tr><td>Прочее</td><td>ADSK_Комплект чертежей³</td><td></td><td></td><td></td><td>●</td><td>АР1</td></tr>
 </table>
 
 1 - Заполняется только у элементов, для которых явное указание требуется, согласно проектным решениям.
