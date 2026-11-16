@@ -6,5 +6,3 @@ properties:
     value:
       - Вакс Р.
 ---
-
-![](./perenos-ploschadey-v-vorakh.webp){width=611px height=142px}
