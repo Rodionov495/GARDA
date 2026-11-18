@@ -2,18 +2,15 @@
 title: Трубы и изоляция
 order: 0.2
 aliases:
-  - path: BIM-instrykcii/plaginy/garda_vis/ovik-vk/vozdukhovody-i-izolyaciya-2
-    moved: "2026-11-05T09:26:56Z"
-  - path: >-
-      BIM-instrykcii/plaginy/garda_vis/specifikacii-ov-vk/vozdukhovody-i-izolyaciya/vozdukhovody-i-izolyaciya-2
-    moved: "2026-11-05T09:27:01Z"
+  - { path: BIM-instrykcii/plaginy/garda_vis/ovik-vk/vozdukhovody-i-izolyaciya-2, moved: "2026-11-05T09:26:56Z" }
+  - { path: BIM-instrykcii/plaginy/garda_vis/specifikacii-ov-vk/vozdukhovody-i-izolyaciya/vozdukhovody-i-izolyaciya-2, moved: "2026-11-05T09:27:01Z" }
 properties:
   - id: CDhLD
     value:
       - Аксенова М.
 ---
 
-Плагин обрабатывает трубопроводы и изоляцию трубопроводов:  рассчитывает  количество, заполняет параметры **«ADSK_Наименование» и «ADSK_Количество».**
+<comment id="wHs9o">Плагин обрабатывает трубопроводы и изоляцию трубопроводов:  рассчитывает  количество, заполняет параметры **«ADSK_Наименование» и «ADSK_Количество».**</comment>
 
 ![](./vozdukhovody-i-izolyaciya.webp){width=2402px height=537px}
 
