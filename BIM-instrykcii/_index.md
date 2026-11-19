@@ -1,5 +1,4 @@
 ---
 title: BIM-Инструкции
-order: 3.8
+order: 3
 ---
-
