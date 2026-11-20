@@ -9,7 +9,7 @@ title: Согласовать отверстия АР
 
 Вкладка **GARDA_АР** -> панель **Отверстия**.
 
-
+![](./untitled.webp){width=309px height=97px}
 
 <note type="info">
   Работает в открытой модели HUB.
