@@ -3,6 +3,14 @@ title: Новости
 order: 3
 ---
 
+20\.11.2026
+
+Опубликованы новые инструкции [«Воздуховоды и изоляция»](https://gramax.avilex.ru/Knowledge_Base/BIM-instrykcii/plaginy/garda_vis/ovik-vk/moskva/vozdukhovody-i-izolyaciya-6), [«Трубы и изоляция»](https://gramax.avilex.ru/Knowledge_Base/BIM-instrykcii/plaginy/garda_vis/ovik-vk/moskva/vozdukhovody-i-izolyaciya-2), [«Заполнение параметров»](https://gramax.avilex.ru/Knowledge_Base/BIM-instrykcii/plaginy/garda_vis/ovik-vk/moskva/zapolnenie-parametrov).
+
+Плагины позволяют заполнить параметры для сбора сводных спецификаций для разделов ОВ/ВК.
+
+
+
 30\.10.2026
 
 Опубликована новая инструкция «[Очистить систему](https://app.gram.ax/github.com/Rodionov495/GARDA/master/-/BIM-instrykcii/plaginy/garda_obschee/ochistit-sistemu)»
