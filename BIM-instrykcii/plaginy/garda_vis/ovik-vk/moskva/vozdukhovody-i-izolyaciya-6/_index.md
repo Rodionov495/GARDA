@@ -1,9 +1,10 @@
 ---
 title: Воздуховоды и изоляция
-order: 0.1
+order: 1.5
 aliases:
   - { path: BIM-instrykcii/plaginy/garda_vis/ovik-vk/vozdukhovody-i-izolyaciya, moved: "2026-11-05T09:26:50Z" }
   - { path: BIM-instrykcii/vozdukhovody-i-izolyaciya, moved: "2026-11-05T09:26:53Z" }
+  - { path: BIM-instrykcii/plaginy/garda_vis/specifikacii-ov-vk/vozdukhovody-i-izolyaciya, moved: "2026-11-20T13:26:53Z" }
 properties:
   - id: CDhLD
     value:

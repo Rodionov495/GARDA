@@ -1,8 +1,9 @@
 ---
 title: Заполнение параметров
-order: 0.230001
+order: 1.8
 aliases:
   - { path: BIM-instrykcii/plaginy/garda_vis/ovik-vk/zapolnenie-parametrov, moved: "2026-11-05T09:27:07Z" }
+  - { path: BIM-instrykcii/plaginy/garda_vis/specifikacii-ov-vk/zapolnenie-parametrov, moved: "2026-11-20T13:26:55Z" }
 properties:
   - id: CDhLD
     value:

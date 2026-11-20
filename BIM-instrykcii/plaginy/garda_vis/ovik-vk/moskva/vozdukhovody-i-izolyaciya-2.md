@@ -1,9 +1,10 @@
 ---
 title: Трубы и изоляция
-order: 0.2
+order: 1.6
 aliases:
   - { path: BIM-instrykcii/plaginy/garda_vis/ovik-vk/vozdukhovody-i-izolyaciya-2, moved: "2026-11-05T09:26:56Z" }
   - { path: BIM-instrykcii/plaginy/garda_vis/specifikacii-ov-vk/vozdukhovody-i-izolyaciya/vozdukhovody-i-izolyaciya-2, moved: "2026-11-05T09:27:01Z" }
+  - { path: BIM-instrykcii/plaginy/garda_vis/specifikacii-ov-vk/vozdukhovody-i-izolyaciya-2, moved: "2026-11-20T13:26:58Z" }
 properties:
   - id: CDhLD
     value:
