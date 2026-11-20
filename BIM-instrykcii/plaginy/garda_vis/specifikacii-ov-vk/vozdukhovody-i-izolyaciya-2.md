@@ -10,7 +10,7 @@ properties:
       - Аксенова М.
 ---
 
-<comment id="wHs9o">Плагин обрабатывает трубопроводы и изоляцию трубопроводов:  рассчитывает  количество, заполняет параметры **«ADSK_Наименование» и «ADSK_Количество».**</comment>
+Плагин рассчитывает количество трубопроводов и изоляции трубопроводов, а так же заполняет параметры **«ADSK_Наименование» и «ADSK_Количество».**
 
 ![](./vozdukhovody-i-izolyaciya.webp){width=2402px height=537px}
 
@@ -63,7 +63,7 @@ properties:
 
 Возможные причины:
 
-<table header="row">
+<table header="row"><colgroup><col width="421" /><col width="464" /></colgroup>
   <tr><td align="center">Причины ошибок</td><td align="center">Кто устраняет</td></tr>
   <tr>
     <td align="center">
