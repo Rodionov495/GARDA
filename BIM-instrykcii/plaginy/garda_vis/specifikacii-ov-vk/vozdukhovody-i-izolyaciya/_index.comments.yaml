@@ -1,42 +1,9 @@
-2VBnc:
-  comment:
-    dateTime: '2026-11-18T13:57:39.637Z'
-    content: Дубляж
-    user:
-      mail: a.rodionov@gardapro.ru
-      name: Rodionov495
-      id: a.rodionov@gardapro.ru
-  answers: []
-wdrE5:
-  comment:
-    dateTime: '2026-11-18T13:58:44.220Z'
-    content: Поднять выше картинки
-    user:
-      mail: a.rodionov@gardapro.ru
-      name: Rodionov495
-      id: a.rodionov@gardapro.ru
-  answers: []
-9buoC:
-  comment:
-    dateTime: '2026-11-18T14:21:48.420Z'
-    content: >-
-      Плагин автоматически рассчитывает толщину стенки и количество для
-      воздуховодов, соединительных деталей и изоляций воздуховодов а так же
-      заполняет параметры **«ADSK_Наименование», «ADSK_Единица измерения»,
-      «ADSK_Количество», «ADSK_Толщина стенки», «G_Периметр».**
-    user:
-      mail: a.rodionov@gardapro.ru
-      name: Rodionov495
-      id: a.rodionov@gardapro.ru
-  answers: []
-k8qhL:
+eDKkZ:
   comment:
     dateTime: '2026-11-18T14:22:21.998Z'
-    content: |+
-      Сделать сдвиг текста чтобы было понятно к чему отновиться
-
-
+    content: Сделать сдвиг текста чтобы было понятно к чему отновиться
     user:
       mail: a.rodionov@gardapro.ru
       name: Rodionov495
       id: a.rodionov@gardapro.ru
+  answers: []
