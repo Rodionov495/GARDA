@@ -101,7 +101,7 @@ order: 5
   <tr><td>Условное расположение</td><td>●</td><td>●</td><td></td><td></td><td></td></tr>
   <tr><td>Точное расположение</td><td></td><td></td><td>●</td><td>●</td><td></td></tr>
   <tr><td>Внешний образ/вид4</td><td>●</td><td>●</td><td>●</td><td>●</td><td></td></tr>
-  <tr><td>Материалы2</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
+  <tr><td>Материалы²</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
   <tr><td>Система каркаса5</td><td></td><td></td><td></td><td></td><td></td></tr>
   <tr><td colspan="7">Уровень проработки атрибутивной информации</td></tr>
   <tr><td rowspan="5">Размеры</td><td>Площадь / ADSK_Размер_Площадь</td><td></td><td>●</td><td>●</td><td>●</td><td>120,0 м²</td></tr>

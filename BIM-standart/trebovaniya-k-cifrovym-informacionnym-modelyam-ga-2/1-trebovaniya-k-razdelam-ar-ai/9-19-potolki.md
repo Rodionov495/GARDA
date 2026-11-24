@@ -82,7 +82,7 @@ order: 19
   <tr><td>Условное расположение</td><td>●</td><td></td><td></td><td></td><td></td></tr>
   <tr><td>Точное расположение</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
   <tr><td>Внешний образ/вид</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
-  <tr><td>Материалы2</td><td></td><td></td><td>●</td><td>●</td><td></td></tr>
+  <tr><td>Материалы²</td><td></td><td></td><td>●</td><td>●</td><td></td></tr>
   <tr><td colspan="7">Уровень проработки атрибутивной информации</td></tr>
   <tr><td rowspan="2">Размеры</td><td>Площадь / ADSK_Размер_Площадь</td><td></td><td>●</td><td>●</td><td>●</td><td>20,0 м²</td></tr>
   <tr><td>Толщина / ADSK_Размер_Толщина</td><td></td><td>●</td><td>●</td><td>●</td><td>62,5 мм</td></tr>

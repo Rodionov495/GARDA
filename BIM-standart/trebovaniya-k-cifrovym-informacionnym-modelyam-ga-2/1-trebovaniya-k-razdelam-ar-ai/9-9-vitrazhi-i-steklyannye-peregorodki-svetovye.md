@@ -93,7 +93,7 @@ order: 9
   <tr><td>Условное расположение</td><td>●</td><td>●</td><td></td><td></td><td></td></tr>
   <tr><td>Точное расположение</td><td></td><td></td><td>●</td><td>●</td><td></td></tr>
   <tr><td>Внешний образ/вид</td><td>●</td><td>●</td><td>●</td><td>●</td><td></td></tr>
-  <tr><td>Материалы2</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
+  <tr><td>Материалы²</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
   <tr><td colspan="7">Уровень проработки атрибутивной информации</td></tr>
   <tr><td rowspan="3">Размеры</td><td>Площадь / ADSK_Размер_Площадь</td><td></td><td>●</td><td>●</td><td>●</td><td>7,5 м²</td></tr>
   <tr><td>Длина / ADSK_Размер_Длина</td><td></td><td>●</td><td>●</td><td>●</td><td>2500 мм</td></tr>

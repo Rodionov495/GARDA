@@ -69,7 +69,7 @@ order: 21
   <tr><td rowspan="4">Геометрия</td><td>Точные габариты</td><td></td><td></td><td>●</td><td>●</td><td></td></tr>
   <tr><td>Точное расположение</td><td></td><td></td><td>●</td><td>●</td><td></td></tr>
   <tr><td>Внешний образ/вид</td><td></td><td></td><td>●</td><td>●</td><td></td></tr>
-  <tr><td>Материалы2</td><td></td><td></td><td>●</td><td>●</td><td></td></tr>
+  <tr><td>Материалы²</td><td></td><td></td><td>●</td><td>●</td><td></td></tr>
   <tr><td colspan="7">Уровень проработки атрибутивной информации</td></tr>
   <tr><td>Размеры</td><td>Площадь</td><td></td><td></td><td>●</td><td>●</td><td>10 м2</td></tr>
   <tr><td rowspan="2">Идентификация</td><td>Описание</td><td></td><td></td><td></td><td>●</td><td>Чистовая отделка потолка</td></tr>

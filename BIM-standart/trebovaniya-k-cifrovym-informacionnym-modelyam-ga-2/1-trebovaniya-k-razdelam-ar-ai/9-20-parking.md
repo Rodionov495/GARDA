@@ -84,7 +84,7 @@ order: 24
   <tr><td>Длина / ADSK_Размер_Длина</td><td></td><td>●</td><td>●</td><td>●</td><td>5300 мм</td></tr>
   <tr><td>Высота / ADSK_Размер_Высота</td><td></td><td>●</td><td>●</td><td>●</td><td>2200 мм</td></tr>
   <tr><td>Идентификация</td><td>Описание</td><td></td><td></td><td>●</td><td>●</td><td>Машиноместо</td></tr>
-  <tr><td>Маркировка</td><td>ADSK_Марка2</td><td></td><td></td><td></td><td>●</td><td>101</td></tr>
+  <tr><td>Маркировка</td><td>ADSK_Марка²</td><td></td><td></td><td></td><td>●</td><td>101</td></tr>
   <tr><td rowspan="3">Положение</td><td>ADSK_Номер здания</td><td></td><td>●</td><td>●</td><td>●</td><td>Строение 1</td></tr>
   <tr><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>3</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>К1</td></tr>
