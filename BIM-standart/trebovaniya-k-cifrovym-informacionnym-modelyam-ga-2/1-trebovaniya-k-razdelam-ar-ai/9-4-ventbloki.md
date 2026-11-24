@@ -86,10 +86,10 @@ order: 4
   <tr><td>ADSK_Размер_Глубина</td><td></td><td>●</td><td>●</td><td>●</td><td>400 мм</td></tr>
   <tr><td>Объем</td><td></td><td></td><td>●</td><td>●</td><td>0,96 м³</td></tr>
   <tr><td rowspan="2">Идентификация</td><td>Описание</td><td></td><td></td><td>●</td><td>●</td><td>Вентблок</td></tr>
-  <tr><td>ADSK_Предел огнестойкости1</td><td></td><td>●</td><td>●</td><td>●</td><td>EI 30</td></tr>
+  <tr><td>ADSK_Предел огнестойкости¹</td><td></td><td>●</td><td>●</td><td>●</td><td>EI 30</td></tr>
   <tr><td>Маркировка</td><td>ADSK_Марка</td><td></td><td></td><td></td><td>●</td><td>ВБ-11</td></tr>
-  <tr><td rowspan="2">Ресурсы</td><td>ADSK_Единица измерения1</td><td></td><td>●</td><td>●</td><td>●</td><td>Шт.</td></tr>
-  <tr><td>ADSK_Завод-изготовитель1</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
+  <tr><td rowspan="2">Ресурсы</td><td>ADSK_Единица измерения¹</td><td></td><td>●</td><td>●</td><td>●</td><td>Шт.</td></tr>
+  <tr><td>ADSK_Завод-изготовитель¹</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
   <tr><td rowspan="3">Положение</td><td>ADSK_Номер здания</td><td></td><td>●</td><td>●</td><td>●</td><td>Строение 1</td></tr>
   <tr><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>2</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>3</td></tr>

@@ -102,13 +102,13 @@ order: 15
   <tr><td rowspan="4">Идентификация</td><td>Описание</td><td></td><td></td><td>●</td><td>●</td><td>Окно двустворчатое</td></tr>
   <tr><td>ADSK_Обозначение</td><td></td><td></td><td>●</td><td>●</td><td>ГОСТ 23166-2024</td></tr>
   <tr><td>ADSK_Наименование</td><td></td><td></td><td>●</td><td>●</td><td>О-ПА-2120 x 1760 x 82</td></tr>
-  <tr><td>ADSK_Предел огнестойкости1</td><td></td><td>●</td><td>●</td><td>●</td><td>E60</td></tr>
+  <tr><td>ADSK_Предел огнестойкости¹</td><td></td><td>●</td><td>●</td><td>●</td><td>E60</td></tr>
   <tr><td rowspan="3">Маркировка</td><td>ADSK_Марка</td><td></td><td></td><td>●</td><td>●</td><td>ОК-1</td></tr>
   <tr><td>ADSK_Открывание</td><td></td><td>●</td><td>●</td><td>●</td><td>Правое Вверх</td></tr>
   <tr><td>ADSK_Код изделия\*</td><td></td><td></td><td>●</td><td>●</td><td>Арт.423</td></tr>
   <tr><td rowspan="3">Ресурсы</td><td>ADSK_Количество</td><td></td><td>●</td><td>●</td><td>●</td><td>5</td></tr>
   <tr><td>ADSK_Единица измерения</td><td></td><td>●</td><td>●</td><td>●</td><td>шт.</td></tr>
-  <tr><td>ADSK_Завод-изготовитель1</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
+  <tr><td>ADSK_Завод-изготовитель¹</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
   <tr><td rowspan="3">Положение</td><td>ADSK_Номер здания</td><td></td><td>●</td><td>●</td><td>●</td><td>Строение 1</td></tr>
   <tr><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>3</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>К1</td></tr>

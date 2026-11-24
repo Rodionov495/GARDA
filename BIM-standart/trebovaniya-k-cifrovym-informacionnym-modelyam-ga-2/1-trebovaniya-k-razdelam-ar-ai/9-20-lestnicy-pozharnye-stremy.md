@@ -86,7 +86,7 @@ order: 32
   <tr><td>ADSK_Обозначение</td><td></td><td></td><td>●</td><td>●</td><td>ГОСТ Р 53254-2009</td></tr>
   <tr><td>Маркировка</td><td>ADSK_Марка</td><td></td><td></td><td></td><td>●</td><td>П-1</td></tr>
   <tr><td rowspan="2">Ресурсы</td><td>ADSK_Единица измерения</td><td></td><td>●</td><td>●</td><td>●</td><td>шт.</td></tr>
-  <tr><td>ADSK_Завод-изготовитель1</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
+  <tr><td>ADSK_Завод-изготовитель¹</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
   <tr><td rowspan="2">Положение</td><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>1</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>К1</td></tr>
   <tr><td>Прочее</td><td>ADSK_Комплект чертежей3</td><td></td><td></td><td></td><td>●</td><td>АР1</td></tr>

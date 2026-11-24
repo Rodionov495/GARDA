@@ -98,8 +98,8 @@ order: 7
   <tr><td rowspan="2">Идентификация</td><td>Описание</td><td></td><td></td><td>●</td><td>●</td><td>Корзина для кондиционера</td></tr>
   <tr><td>ADSK_Наименование</td><td></td><td></td><td>●</td><td>●</td><td>По ГОСТ</td></tr>
   <tr><td>Маркировка</td><td>ADSK_Марка</td><td></td><td></td><td></td><td>●</td><td>ККД-1</td></tr>
-  <tr><td rowspan="2">Ресурсы</td><td>ADSK_Единица измерения1</td><td></td><td>●</td><td>●</td><td>●</td><td>шт</td></tr>
-  <tr><td>ADSK_Завод-изготовитель1</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
+  <tr><td rowspan="2">Ресурсы</td><td>ADSK_Единица измерения¹</td><td></td><td>●</td><td>●</td><td>●</td><td>шт</td></tr>
+  <tr><td>ADSK_Завод-изготовитель¹</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
   <tr><td rowspan="3">Положение</td><td>ADSK_Номер здания</td><td></td><td>●</td><td>●</td><td>●</td><td>Строение 1</td></tr>
   <tr><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>3</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>К1</td></tr>

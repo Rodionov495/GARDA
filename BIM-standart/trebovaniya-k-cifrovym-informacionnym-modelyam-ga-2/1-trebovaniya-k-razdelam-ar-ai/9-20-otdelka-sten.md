@@ -92,8 +92,8 @@ order: 20
   <tr><td>Точное расположение</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
   <tr><td>Внешний образ/вид</td><td>●</td><td>●</td><td>●</td><td>●</td><td></td></tr>
   <tr><td>Многослойная структура (допускается)</td><td>●</td><td>●</td><td>●</td><td>●</td><td></td></tr>
-  <tr><td>Слои в виде отдельных стен1</td><td></td><td></td><td>●</td><td>●</td><td></td></tr>
-  <tr><td>Материалы1</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
+  <tr><td>Слои в виде отдельных стен¹</td><td></td><td></td><td>●</td><td>●</td><td></td></tr>
+  <tr><td>Материалы¹</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
   <tr><td colspan="7">Уровень проработки атрибутивной информации</td></tr>
   <tr><td rowspan="2">Размеры</td><td>Площадь / ADSK_Размер_Площадь</td><td></td><td>●</td><td>●</td><td>●</td><td>8,4 м²</td></tr>
   <tr><td>Толщина / ADSK_Размер_Толщина</td><td></td><td>●</td><td>●</td><td>●</td><td>20 мм</td></tr>

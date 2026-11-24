@@ -83,7 +83,7 @@ order: 16
   <tr><td>Маркировка</td><td>ADSK_Позиция\*</td><td></td><td></td><td>●</td><td>●</td><td>П-1</td></tr>
   <tr><td rowspan="3">Ресурсы</td><td>ADSK_Количество</td><td></td><td>●</td><td>●</td><td>●</td><td>2</td></tr>
   <tr><td>ADSK_Единица измерения</td><td></td><td>●</td><td>●</td><td>●</td><td>шт.</td></tr>
-  <tr><td>ADSK_Завод-изготовитель1</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
+  <tr><td>ADSK_Завод-изготовитель¹</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
   <tr><td rowspan="3">Положение</td><td>ADSK_Номер здания</td><td></td><td>●</td><td>●</td><td>●</td><td>Строение 1</td></tr>
   <tr><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>3</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>К1</td></tr>

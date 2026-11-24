@@ -84,7 +84,7 @@ order: 31
   <tr><td>Идентификация</td><td>Описание</td><td></td><td></td><td>●</td><td>●</td><td>Путь эвакуации</td></tr>
   <tr><td rowspan="2">Положение</td><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>1</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>К1</td></tr>
-  <tr><td>Прочее</td><td>ADSK_Комплект чертежей1</td><td></td><td></td><td></td><td>●</td><td>АР1</td></tr>
+  <tr><td>Прочее</td><td>ADSK_Комплект чертежей¹</td><td></td><td></td><td></td><td>●</td><td>АР1</td></tr>
 </table>
 
 1 - Заполняется если из модели выпускается несколько комплектов документации.

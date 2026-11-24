@@ -85,8 +85,8 @@ order: 29
   <tr><td rowspan="2">Размеры</td><td>ADSK_Размер_Высота</td><td></td><td>●</td><td>●</td><td>●</td><td>3500 мм</td></tr>
   <tr><td>ADSK_Размер_Ширина</td><td></td><td>●</td><td>●</td><td>●</td><td>1000 мм</td></tr>
   <tr><td>Идентификация</td><td>Описание</td><td></td><td></td><td></td><td>●</td><td>Эскалатор</td></tr>
-  <tr><td>Маркировка</td><td>ADSK_Позиция1</td><td></td><td></td><td></td><td>●</td><td>ЭП-1</td></tr>
-  <tr><td>Ресурсы</td><td>ADSK_Единица измерения1</td><td></td><td>●</td><td>●</td><td>●</td><td>Шт.</td></tr>
+  <tr><td>Маркировка</td><td>ADSK_Позиция¹</td><td></td><td></td><td></td><td>●</td><td>ЭП-1</td></tr>
+  <tr><td>Ресурсы</td><td>ADSK_Единица измерения¹</td><td></td><td>●</td><td>●</td><td>●</td><td>Шт.</td></tr>
   <tr><td rowspan="3">Положение</td><td>ADSK_Номер здания</td><td></td><td>●</td><td>●</td><td>●</td><td>Строение 1</td></tr>
   <tr><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>3</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>К1</td></tr>

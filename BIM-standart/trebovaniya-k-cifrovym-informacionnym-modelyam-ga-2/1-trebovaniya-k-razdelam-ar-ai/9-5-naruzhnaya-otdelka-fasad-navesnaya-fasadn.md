@@ -111,10 +111,10 @@ order: 5
   <tr><td>Объем</td><td></td><td>●</td><td>●</td><td>●</td><td>1,01 м³</td></tr>
   <tr><td rowspan="3">Идентификация</td><td>Описание</td><td></td><td></td><td>●</td><td>●</td><td>Фасадный кирпич</td></tr>
   <tr><td>G_Состав конструкции4</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
-  <tr><td>ADSK_Предел огнестойкости1</td><td></td><td>●</td><td>●</td><td>●</td><td>REI 45; EI 45</td></tr>
+  <tr><td>ADSK_Предел огнестойкости¹</td><td></td><td>●</td><td>●</td><td>●</td><td>REI 45; EI 45</td></tr>
   <tr><td>Маркировка</td><td>ADSK_Марка</td><td></td><td></td><td></td><td>●</td><td>ПД-1</td></tr>
-  <tr><td rowspan="2">Ресурсы</td><td>ADSK_Единица измерения1</td><td></td><td>●</td><td>●</td><td>●</td><td>м²</td></tr>
-  <tr><td>ADSK_Завод-изготовитель1</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
+  <tr><td rowspan="2">Ресурсы</td><td>ADSK_Единица измерения¹</td><td></td><td>●</td><td>●</td><td>●</td><td>м²</td></tr>
+  <tr><td>ADSK_Завод-изготовитель¹</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
   <tr><td rowspan="3">Положение</td><td>ADSK_Номер здания</td><td></td><td>●</td><td>●</td><td>●</td><td>Строение 1</td></tr>
   <tr><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>2</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>3</td></tr>

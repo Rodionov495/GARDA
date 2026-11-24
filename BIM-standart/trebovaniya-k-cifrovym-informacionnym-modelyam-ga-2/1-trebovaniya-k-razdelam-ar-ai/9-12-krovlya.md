@@ -86,7 +86,7 @@ order: 12
   <tr><td>Внешний образ/вид</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
   <tr><td>Однослойная структура</td><td>●</td><td></td><td></td><td></td><td></td></tr>
   <tr><td>Многослойная структура</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
-  <tr><td>Материалы1</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
+  <tr><td>Материалы¹</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
   <tr><td>Уклон</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
   <tr><td colspan="7">Уровень проработки атрибутивной информации</td></tr>
   <tr><td rowspan="3">Размеры</td><td>Площадь / G_Площадь</td><td></td><td>●</td><td>●</td><td>●</td><td>8 м²</td></tr>
@@ -94,7 +94,7 @@ order: 12
   <tr><td>Толщина / ADSK_Размер_Толщина</td><td></td><td>●</td><td>●</td><td>●</td><td>280 мм</td></tr>
   <tr><td rowspan="4">Идентификация</td><td>Описание</td><td></td><td></td><td>●</td><td>●</td><td>Кровля плоская</td></tr>
   <tr><td>ADSK_Наименование</td><td></td><td></td><td>●</td><td>●</td><td>По ГОСТ</td></tr>
-  <tr><td>ADSK_Предел огнестойкости1</td><td></td><td>●</td><td>●</td><td>●</td><td>REI45</td></tr>
+  <tr><td>ADSK_Предел огнестойкости¹</td><td></td><td>●</td><td>●</td><td>●</td><td>REI45</td></tr>
   <tr>
     <td>G_Состав конструкции</td>
     <td></td>
@@ -112,8 +112,8 @@ order: 12
     </td>
   </tr>
   <tr><td>Маркировка</td><td>ADSK_Марка</td><td></td><td></td><td></td><td>●</td><td>ЗФ-12</td></tr>
-  <tr><td rowspan="2">Ресурсы</td><td>ADSK_Единица измерения1</td><td></td><td>●</td><td>●</td><td>●</td><td>м²</td></tr>
-  <tr><td>ADSK_Завод-изготовитель1</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
+  <tr><td rowspan="2">Ресурсы</td><td>ADSK_Единица измерения¹</td><td></td><td>●</td><td>●</td><td>●</td><td>м²</td></tr>
+  <tr><td>ADSK_Завод-изготовитель¹</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
   <tr><td rowspan="3">Положение</td><td>ADSK_Номер здания</td><td></td><td>●</td><td>●</td><td>●</td><td>Строение 1</td></tr>
   <tr><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>3</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>К1</td></tr>

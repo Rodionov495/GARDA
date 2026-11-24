@@ -87,7 +87,7 @@ order: 27
   <tr><td rowspan="3">Положение</td><td>ADSK_Номер здания</td><td></td><td>●</td><td>●</td><td>●</td><td>Строение 1</td></tr>
   <tr><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>3</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>К1</td></tr>
-  <tr><td>Прочее</td><td>ADSK_Комплект чертежей1</td><td></td><td></td><td></td><td>●</td><td>АР1</td></tr>
+  <tr><td>Прочее</td><td>ADSK_Комплект чертежей¹</td><td></td><td></td><td></td><td>●</td><td>АР1</td></tr>
 </table>
 
 1 - Заполняется только у элементов, для которых явное указание требуется, согласно проектным решениям.

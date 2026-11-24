@@ -83,10 +83,10 @@ order: 30
   <tr><td>Размеры</td><td>ADSK_Размер_Длина</td><td></td><td>●</td><td>●</td><td>●</td><td>12</td></tr>
   <tr><td>Идентификация</td><td>Описание</td><td></td><td></td><td>●</td><td>●</td><td>Водосточная труба</td></tr>
   <tr><td rowspan="2">Маркировка</td><td>ADSK_Марка</td><td></td><td></td><td></td><td>●</td><td>ОГ-1</td></tr>
-  <tr><td>ADSK_Код изделия1</td><td></td><td></td><td></td><td>●</td><td>Арт.423</td></tr>
+  <tr><td>ADSK_Код изделия¹</td><td></td><td></td><td></td><td>●</td><td>Арт.423</td></tr>
   <tr><td rowspan="3">Ресурсы</td><td>ADSK_Единица измерения</td><td></td><td>●</td><td>●</td><td>●</td><td>м.п.</td></tr>
   <tr><td>ADSK_Количество</td><td></td><td>●</td><td>●</td><td>●</td><td></td></tr>
-  <tr><td>ADSK_Завод-изготовитель1</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
+  <tr><td>ADSK_Завод-изготовитель¹</td><td></td><td></td><td></td><td>●</td><td>Россия</td></tr>
   <tr><td rowspan="2">Положение</td><td>ADSK_Этаж</td><td></td><td>●</td><td>●</td><td>●</td><td>3</td></tr>
   <tr><td>ADSK_Номер секции</td><td></td><td>●</td><td>●</td><td>●</td><td>К1</td></tr>
   <tr><td>Прочее</td><td>ADSK_Комплект чертежей3</td><td></td><td></td><td></td><td>●</td><td>АР1</td></tr>
