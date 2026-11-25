@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1400" viewBox="0 0 1600 1400" role="img" aria-labelledby="title desc">
+  <title id="title">Три этапа работы с отверстиями</title>
+  <desc id="desc">ВИС выдаёт, проверяет и согласует задание в HUB. Затем АР или КР проверяет и согласует его в HUB. После этого согласованное задание переносят в модель АР или КР и проверяют локальное отверстие. Для этапов два и три показаны возможные изменения и возврат на проверку.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, 'Segoe UI', sans-serif; fill: #183047; }
+      .title { font-size: 43px; font-weight: 700; }
+      .sub { font-size: 22px; fill: #52697a; }
+      .stage { font-size: 30px; font-weight: 700; }
+      .heading { font-size: 26px; font-weight: 700; }
+      .line { font-size: 21px; }
+      .note { font-size: 19px; }
+      .badge { font-size: 25px; font-weight: 700; fill: #fff; }
+      .tag { font-size: 18px; font-weight: 700; }
+      .arrow { stroke: #728b9f; stroke-width: 5; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#728b9f"/></marker>
+  </defs>
+
+  <rect width="1600" height="1400" fill="#f6f9fc"/>
+  <text class="title" x="80" y="78">Работа с отверстиями: три этапа</text>
+  <text class="sub" x="80" y="118">Один процесс, два маршрута согласования и переноса — АР или КР</text>
+
+  <!-- Stage 1 -->
+  <rect x="80" y="165" width="1440" height="235" rx="25" fill="#e6f5f2" stroke="#89c5b5" stroke-width="2"/>
+  <circle cx="135" cy="217" r="29" fill="#25816c"/><text class="badge" x="128" y="226">1</text>
+  <text class="stage" x="185" y="225">ВИС · работа в HUB</text>
+  <rect x="110" y="260" width="420" height="100" rx="17" fill="#fff" stroke="#aad9cd" stroke-width="2"/>
+  <text class="heading" x="140" y="303">Расставить задания</text>
+  <text class="line" x="140" y="337">По трассам и конструкциям</text>
+  <path class="arrow" d="M530 310 H565"/>
+  <rect x="580" y="260" width="420" height="100" rx="17" fill="#fff" stroke="#aad9cd" stroke-width="2"/>
+  <text class="heading" x="610" y="303">Проверить</text>
+  <text class="line" x="610" y="337">Размеры и положение</text>
+  <path class="arrow" d="M1000 310 H1035"/>
+  <rect x="1050" y="260" width="440" height="100" rx="17" fill="#fff" stroke="#aad9cd" stroke-width="2"/>
+  <text class="heading" x="1080" y="303">Согласовать ВИС</text>
+  <text class="line" x="1080" y="337">Зафиксировать текущее задание</text>
+
+  <path class="arrow" d="M800 400 V450"/>
+
+  <!-- Stage 2 -->
+  <rect x="80" y="465" width="1440" height="470" rx="25" fill="#e8eefb" stroke="#a5b7e2" stroke-width="2"/>
+  <circle cx="135" cy="517" r="29" fill="#4968ad"/><text class="badge" x="128" y="526">2</text>
+  <text class="stage" x="185" y="525">АР или КР · работа в HUB</text>
+  <text class="sub" x="185" y="558">Проверка отверстия → при необходимости корректировка → согласование своего раздела</text>
+
+  <rect x="110" y="590" width="670" height="225" rx="19" fill="#fff" stroke="#b7c7ea" stroke-width="2"/>
+  <rect x="110" y="590" width="670" height="60" rx="19" fill="#d6e3ff"/>
+  <text class="heading" x="145" y="630">Ветка АР</text>
+  <text class="line" x="145" y="686">1. Проверить задание в HUB</text>
+  <text class="line" x="145" y="725">2. При нужде изменить отверстие</text>
+  <text class="line" x="145" y="764">3. Согласовать АР в HUB</text>
+  <text class="tag" x="145" y="795" fill="#4968ad">Итог: ВИС + АР → можно переносить</text>
+
+  <rect x="820" y="590" width="670" height="225" rx="19" fill="#fff" stroke="#b7c7ea" stroke-width="2"/>
+  <rect x="820" y="590" width="670" height="60" rx="19" fill="#d6e3ff"/>
+  <text class="heading" x="855" y="630">Ветка КР</text>
+  <text class="line" x="855" y="686">1. Проверить задание в HUB</text>
+  <text class="line" x="855" y="725">2. При нужде изменить отверстие</text>
+  <text class="line" x="855" y="764">3. Согласовать КР в HUB</text>
+  <text class="tag" x="855" y="795" fill="#4968ad">Итог: ВИС + КР → можно переносить</text>
+
+  <rect x="110" y="835" width="1380" height="75" rx="17" fill="#fff1df" stroke="#e9bb7c" stroke-width="2"/>
+  <text class="note" x="140" y="866"><tspan font-weight="700">АР/КР изменил задание:</tspan> ВИС сбрасывается, подпись АР/КР остаётся → вернуть ВИС.</text>
+  <text class="note" x="140" y="896"><tspan font-weight="700">ВИС изменил задание позже:</tspan> подпись АР/КР сбрасывается → повторить этап 2.</text>
+
+  <path class="arrow" d="M800 935 V985"/>
+
+  <!-- Stage 3 -->
+  <rect x="80" y="1000" width="1440" height="320" rx="25" fill="#efe8fa" stroke="#bba6da" stroke-width="2"/>
+  <circle cx="135" cy="1052" r="29" fill="#7653aa"/><text class="badge" x="128" y="1061">3</text>
+  <text class="stage" x="185" y="1060">Перенос из HUB · работа в моделях АР или КР</text>
+
+  <rect x="110" y="1090" width="670" height="125" rx="19" fill="#fff" stroke="#c8b9e2" stroke-width="2"/>
+  <text class="heading" x="145" y="1132">В модели АР</text>
+  <text class="line" x="145" y="1170">Перенести согласованные задания из HUB</text>
+  <text class="line" x="145" y="1200">Проверить габариты и местоположение</text>
+
+  <rect x="820" y="1090" width="670" height="125" rx="19" fill="#fff" stroke="#c8b9e2" stroke-width="2"/>
+  <text class="heading" x="855" y="1132">В модели КР</text>
+  <text class="line" x="855" y="1170">Перенести согласованные задания из HUB</text>
+  <text class="line" x="855" y="1200">Проверить габариты и местоположение</text>
+
+  <text class="note" x="115" y="1261"><tspan font-weight="700">Если источник в HUB изменён или удалён:</tspan> статус переноса требует разбора; сверить локальное отверстие.</text>
+  <text class="note" x="115" y="1294"><tspan font-weight="700">Если локальное отверстие не совпало:</tspan> исправить проблему и повторно проверить результат переноса.</text>
+
+  <rect x="80" y="1340" width="1440" height="42" rx="12" fill="#fff1df"/>
+  <text class="tag" x="110" y="1368" fill="#946024">Подтверждённое нарушение геометрии при проверке в HUB может сбросить все действующие согласования.</text>
+</svg>
