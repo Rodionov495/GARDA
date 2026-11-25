@@ -1,6 +1,6 @@
 ---
 title: Яндекс Трекер
-order: 10
+order: 9
 ---
 
 <view defs="hierarchy=none" display="List" />
