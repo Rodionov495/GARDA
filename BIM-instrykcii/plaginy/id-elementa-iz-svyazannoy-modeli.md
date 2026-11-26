@@ -13,7 +13,7 @@ properties:
 
 Плагин расположен на вкладке «**GARDA_Общие**», в панели «**ID**»
 
-![](./id-elementa-iz-svyazannoy-modeli.jpeg){width=245px height=91px scale=248px}
+![](./id-elementa-iz-svyazannoy-modeli.webp){width=237px height=62px scale=271px}
 
 ## Как пользоваться
 
